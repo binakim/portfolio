@@ -1,0 +1,48 @@
+$primary-color: rgb(80,227,194);
+$text-color: rgb(43,43,43);
+
+.App {
+  text-align: center;
+}
+
+.highlight {
+  position: relative;
+}
+
+.highlight::after {
+  content: "";
+  background-color: $primary-color;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  border-radius: 50px;
+  z-index: -1;
+  top: 9px;
+  left: 0px;
+}
+
+.navbar.bg-light {
+  background-color: white!important;
+}
+
+.header {
+  height: 80px;
+}
+
+.header .nav-item {
+  margin-left: 54px;
+}
+
+.header .nav-item a {
+  color: $text-color;
+}
+
+.header .nav-item .active {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.header .navbar-collapse.collapse.show {
+  background-color: rgba(255,255,255,0.9);
+}
