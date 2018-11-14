@@ -1,3 +1,5 @@
+@import 'node_modules/retinajs/dist/_retina.scss';
+
 $primary-color: rgb(80,227,194);
 $text-color: rgb(43,43,43);
 $black-color: rgb(25,25,25);
@@ -201,72 +203,53 @@ a:hover {
   height: 400px;
   width: 653px;
   background-image: linear-gradient(225deg,rgb(130,121,199),rgb(75,68,149));
+
+  img {
+    position: relative;
+    left: 20px;
+    top: 100px;
+  }
 }
 
-.gd1::after {
-  content: '';
-  display: block;
-  width: 617px;
-  height: 453px;
-  background-image: url("/assets/p1.png");
-  position: relative;
-  left: 20px;
-  top: 100px;
-}
 
 
 .gd2 {
   height: 400px;
   width: 653px;
   background-image: linear-gradient(180deg,rgb(197,195,139),rgb(63,121,114));
-}
 
-.gd2::after {
-  content: '';
-  display: block;
-  width: 538px;
-  height: 457px;
-  background-image: url("/assets/p2.png");
-  position: relative;
-  left: 60px;
-  top: 40px;
+  img {
+    position: relative;
+    left: -60px;
+    top: 40px;
+  }
 }
 
 .gd3 {
   height: 400px;
   width: 653px;
   background-image: radial-gradient(circle at 65% 50%,rgba(0,0,0,0.49),rgb(0,0,0) 50%);
-}
 
-.gd3::after {
-  content: '';
-  display: block;
-  width: 224px;
-  height: 447px;
-  background-image: url("/assets/p3.png");
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .gd4 {
   height: 400px;
   width: 653px;
   background-image: radial-gradient(circle,rgb(13,12,17),rgb(42,56,160));
-}
 
-.gd4::after {
-  content: '';
-  display: block;
-  width: 885px;
-  height: 457px;
-  background-image: url("/assets/p4.png");
-  position: relative;
-  left: -50px;
-  top: 80px;
+  img {
+    position: relative;
+    left: -50px;
+    top: 80px;
+  }
 }
 
 .myphoto {
@@ -287,7 +270,7 @@ a:hover {
 
 .statement::before{
   content: '';
-  background-image: url("/assets/Quotation1.png");
+  @include retina("/assets/Quotation1.png");
   width: 36px;
   height: 29px;
   display: block;
@@ -297,7 +280,7 @@ a:hover {
 
 .statement::after{
   content: '';
-  background-image: url("/assets/Quotation2.png");
+  @include retina("/assets/Quotationw.png");
   width: 36px;
   height: 29px;
   display: inline-block;
