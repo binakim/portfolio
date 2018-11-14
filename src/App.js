@@ -14,8 +14,8 @@ class App extends Component {
       <Router>
         <div className="App container">
           <Header className="Header" />
-          <Route path="/" exact component={WorkPage} />
-          <Route path="/about" component={AboutPage} />
+          <Route path="/bina/" exact component={WorkPage} />
+          <Route path="/bina/about" component={AboutPage} />
           <Footer />
         </div>
       </Router>
