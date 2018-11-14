@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
+import WorkPage from './WorkPage';
 
-const workPage = () => <div>Hello <span className='highlight'>Work</span></div>
 const aboutPage = () => <h2>About</h2>
 
 class Header extends React.Component {
@@ -11,7 +11,9 @@ class Header extends React.Component {
       <Router>
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light header">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand" href="#">
+              <img src="/assets/logo_black.png" width="30" height="30" alt="" />
+            </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -27,7 +29,7 @@ class Header extends React.Component {
             </div>
           </nav>
 
-          <Route path="/" exact component={workPage} />
+          <Route path="/" exact component={WorkPage} />
           <Route path="/about" component={aboutPage} />
         </div>
       </Router>
