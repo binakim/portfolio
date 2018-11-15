@@ -6,13 +6,13 @@ import WorkPanel from './WorkPanel';
 export default () => {
   return <div>
     <CenteredPage className='centerPage'> 
-      <p>Hello, I'm <span className='highlight'>Bina Kim</span>.</p>
-      <p>A <span className='highlight'>product designer</span></p>
-      <p>who <span className='highlight'>designs</span> delightful</p>
-      <p><span className='highlight'>User Experience</span>.</p>
+      <p><h2>Hello, I'm <span className='highlight'>Bina Kim</span>.</h2></p>
+      <p><h2>A <span className='highlight'>product designer</span></h2></p>
+      <p><h2>who <span className='highlight'>designs</span> delightful</h2></p>
+      <p><h2><span className='highlight'>User Experience</span>.</h2></p>
     </CenteredPage>
     <WorkPanel backgroundStyle='gd1' imagePath='assets/p1.png'>
-      <h6>UI / UX Design</h6>
+      <h5>UI / UX Design</h5>
       <h1>I was here</h1>
       <h4>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</h4>
     </WorkPanel>
@@ -32,7 +32,7 @@ export default () => {
       <h4>A video streaming website for Hyundai Card Branding and Marketing group.</h4>
     </WorkPanel>
     <div className='backToTop'>
-      <a href='#'>Back to top</a>
+      <h4><a href='#'>Back to top</a></h4>
     </div>
   </div>
 }

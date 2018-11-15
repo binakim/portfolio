@@ -4,6 +4,114 @@ $primary-color: rgb(80,227,194);
 $text-color: rgb(43,43,43);
 $black-color: rgb(25,25,25);
 
+@media (min-width: 576px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 65px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 36px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 20px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 35px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 16px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 12px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 12px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 8px
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 65px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 36px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 20px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 65px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 36px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 20px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px
+    }
+  }
+}
+
+
 a {
   position: relative;
   color: $text-color;
@@ -20,8 +128,8 @@ a:hover {
   text-align: center;
 }
 
-.container {
-  padding: 0;
+.container-fluid {
+  max-width: 1140px;
 }
 
 .highlight {
@@ -35,7 +143,6 @@ a:hover {
   width: 100%;
   background-color: $black-color;
   color: white;
-  font-size: 13px;
 
   .container {
     display: flex;
@@ -134,7 +241,6 @@ a:hover {
 }
 
 .backToTop {
-  font-size: 20px;
   margin-bottom: 100px;
   margin-top: 50px;
 }
@@ -145,21 +251,9 @@ a:hover {
   margin-bottom: 298px;
 
   h4 {
-    font-weight: lighter;
-    font-size: 20px;
-    line-height: 28px;
-    width: 400px;
+    line-height: 140%;
+    max-width: 400px;
     margin-bottom: 30px;
-  }
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 65px;
-    font-weight: bold;
-    margin-bottom: -2px;
-  }
-  h6 {
-    font-size: 18px;
-    margin-bottom: 4px;
   }
 }
 
@@ -170,23 +264,21 @@ a:hover {
 
 .workPanel .content {
   height: 400px;
+  min-width: 310px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 0 2px;
-  
-  .seeCaseStudy {
-    font-size: 20px;
-  }
 
   a::after {
     @extend .highlight-drop;
-    height: 10%;
+    height: 5%;
+    top: 23%;
   }
 
   a:hover::after {
     @extend .highlight-drop;
+    top: 23%;
   }
 }
 
@@ -196,32 +288,48 @@ a:hover {
 
 .workPanel .image {
   height: 400px;
-  width: 653px;
+  max-width: 653px;
 }
 
 .gd1 {
-  height: 400px;
-  width: 653px;
+  height: auto;
+  width: 100%;
+  max-width: 653px;
   background-image: linear-gradient(225deg,rgb(130,121,199),rgb(75,68,149));
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
 
   img {
     position: relative;
     left: 20px;
     top: 100px;
+    max-width: 617px;
+    width: 100%;
+    height: auto;
   }
 }
 
 
 
 .gd2 {
-  height: 400px;
-  width: 653px;
+  height: auto;
+  width: 100%;
+  max-width: 653px;
   background-image: linear-gradient(180deg,rgb(197,195,139),rgb(63,121,114));
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
 
   img {
     position: relative;
-    left: -60px;
+    left: 0;
     top: 40px;
+    max-width: 536px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -261,7 +369,6 @@ a:hover {
 }
 
 .statement{
-  font-size: 36px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -300,13 +407,18 @@ a:hover {
   text-align: left;
 
   .btn {
+    line-height: 0;
+    margin-bottom: 0;
     background-color: $primary-color;
     border-color: $primary-color;
     color: white;
     font-weight: bold;
-    font-size: 25px;
     border-radius: 30px;
-    padding: 5px 30px;
+    padding: 8px 30px;
+    
+    h3 {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -321,16 +433,15 @@ a:hover {
 .title {
   display: inline-block;
   font-weight: bold;
-  font-size: 30px;
   position: relative;
   margin-bottom: 28px;
-  margin-top: 15px;
+  margin-top: 28px;
 }
 
 .title::after {
   @extend .highlight-drop;
   height: 10%;
-  top: -2px;
+  top: -10px;
 }
 
 .exp{
@@ -338,7 +449,6 @@ a:hover {
   margin-bottom: 31px;
 
   h4 {
-    font-size: 20px;
     .company {
       font-weight: bold;
       margin-right: 10px;
@@ -351,7 +461,6 @@ a:hover {
     margin-bottom: 10px;
   }
   h5 {
-    font-size: 18px;
-    line-height: 150%;
+    line-height: 140%;
   }
 }

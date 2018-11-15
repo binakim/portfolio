@@ -12,10 +12,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App container">
+        <div className="App container-fluid">
           <Header className="Header" />
-          <Route path="/bina/" exact component={WorkPage} />
-          <Route path="/bina/about" component={AboutPage} />
+          <Route path='/' exact component={WorkPage} />
+          <Route path='/about' component={AboutPage} />
           <Footer />
         </div>
       </Router>

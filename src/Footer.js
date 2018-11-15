@@ -5,17 +5,17 @@ export default () => {
     <div className='footer'>
       <div className='container'>
         <div className='allrights'>
-          &copy;2018 Bina Kim All Rights Reserved
+          <h5>&copy;2018 Bina Kim All Rights Reserved</h5>
         </div>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" href="#">LinkedIn</a>
+            <a class="nav-link" href="#"><h4>LinkedIn</h4></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Medium</a>
+            <a class="nav-link" href="#"><h4>Medium</h4></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Email</a>
+            <a class="nav-link" href="#"><h4>Email</h4></a>
           </li>
         </ul>
       </div>

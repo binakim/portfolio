@@ -11,16 +11,16 @@ export default () => {
       </div>
       <div className='col-md-12 col-lg-7'>
         <div className='statement'>
-          I'm not just a problem-solving designer. I can creating something that inspires people with new experience.
+          <h2>I'm not just a problem-solving designer. I can creating something that inspires people with new experience.</h2>
         </div>
         <div className='resume'>
-        <button type='button' class='btn'>RESUME &gt;</button>
+        <button type='button' class='btn'><h3>RESUME &gt;</h3></button>
         </div>
       </div>
     </div>
     <div className='row bio'>
       <div className='col-lg-6'>
-        <span className='title'>EXPERIENCE</span>
+        <span className='title'><h2>EXPERIENCE</h2></span>
         <div className='exp'>
           <h4><span className='company'>Hyundai Card</span> Senior Product Designer</h4>
           <h6>July 2014 - May 2017</h6>
@@ -38,7 +38,7 @@ export default () => {
         </div>
       </div>
       <div className='col-lg-6'>
-        <span className='title'>EDUCATION</span>
+        <span className='title'><h2>EDUCATION</h2></span>
         <div className='exp'>
           <h4><span className='company'>Academy of Art University</span> San Francisco, CA</h4>
           <h5>Master of Arts / Web Design & New Media (Fall 2018)</h5>
@@ -47,7 +47,7 @@ export default () => {
           <h4><span className='company'>Hanyang University</span> Seoul, Korea</h4>
           <h5>Bachelor of Fine Arts / Visual Design (Spring 2006)</h5>
         </div>
-        <span className='title'>SKILLS</span>
+        <span className='title'><h2>SKILLS</h2></span>
         <div className='exp'>
           <h5>Sketch, Flinto, Invision, Adobe XD / Illustrator / Photoshop / Indesign / After effect</h5>
         </div>

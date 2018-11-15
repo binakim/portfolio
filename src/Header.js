@@ -16,10 +16,10 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav flex-grow-1 justify-content-end">
               <li className="nav-item">
-                <NavLink exact={true} to="/bina/" activeClass="active">WORK</NavLink>
+                <NavLink exact={true} to="/" activeClass="active">WORK</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/bina/about" activeClass="active">ABOUT</NavLink>
+                <NavLink to="/about" activeClass="active">ABOUT</NavLink>
               </li>
             </ul>
           </div>

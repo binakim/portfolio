@@ -8,11 +8,11 @@ export default (props) => {
   }
 
   return <div className={ className.join(' ') }>
-    <div className='content col-lg-12 col-xl-5'>
+    <div className='content col-12 col-md-5'>
       {props.children}
-    <NavLink className='seeCaseStudy' to='/work1'>See case study &gt;</NavLink>
+    <NavLink className='seeCaseStudy' to='/work1'><h4>See case study &gt;</h4></NavLink>
     </div>
-    <div className='image col-lg-12 col-xl-7'>
+    <div className='image col-12 col-md-7'>
       <div className={ props.backgroundStyle }>
         <img src={ props.imagePath } data-rjs="2"/>
       </div>
