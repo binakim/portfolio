@@ -11,7 +11,7 @@ import AboutPage from './AboutPage';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/bina">
         <div className="App container-fluid">
           <Header className="Header" />
           <Route path='/' exact component={WorkPage} />
