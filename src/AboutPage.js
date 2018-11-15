@@ -4,12 +4,12 @@ import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
 
 export default () => {
-  return <div className='container'>
+  return <div>
     <div className='row'>
       <div className='myphoto col-md-12 col-lg-5'>
         <img src='assets/about1.jpg' data-rjs="2" />
       </div>
-      <div className='col-md-12 col-lg-7'>
+      <div className='statementSection col-md-12 col-lg-7'>
         <div className='statement'>
           <h2>I'm not just a problem-solving designer. I can creating something that inspires people with new experience.</h2>
         </div>

@@ -12,8 +12,8 @@ export default (props) => {
       {props.children}
     <NavLink className='seeCaseStudy' to='/work1'><h4>See case study &gt;</h4></NavLink>
     </div>
-    <div className='image col-12 col-md-7'>
-      <div className={ props.backgroundStyle }>
+    <div className='col-12 col-md-7'>
+      <div className={ 'image ' + props.backgroundStyle }>
         <img src={ props.imagePath } data-rjs="2"/>
       </div>
     </div>
