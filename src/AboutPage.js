@@ -3,6 +3,8 @@ import React from 'react';
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
 
+import './AboutPage.scss';
+
 export default () => {
   return <div>
     <div className='row'>

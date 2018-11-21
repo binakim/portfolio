@@ -1,0 +1,38 @@
+@import 'common.scss';
+
+@media (min-width: 992px) {
+  .header .nav-item {
+    width: 68px;
+    text-align: left;
+    margin-left: 30px;
+  }
+}
+
+.header {
+  padding: 20px 15px;
+}
+
+.header .nav-item a {
+  position: relative;
+  color: $text-color;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.header .nav-item a:hover::after {
+  @extend .highlight-drop;
+}
+
+.header .nav-item .active {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.header .navbar-collapse.collapse.show {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.header.navbar.bg-light {
+  background-color: white!important;
+}
+

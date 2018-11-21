@@ -1,0 +1,111 @@
+@import 'node_modules/retinajs/dist/_retina.scss';
+
+$primary-color: rgb(80,227,194);
+$text-color: rgb(43,43,43);
+$black-color: rgb(25,25,25);
+
+@media (min-width: 1px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 65px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 36px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 20px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    button {
+      font-size: 25px;
+    }
+  }
+}
+
+// @media (min-width: 576px) {
+// }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body {
+    h1 {
+      font-weight: bold;
+      font-size: 65px
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 36px
+
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px
+    }
+    h4 {
+      font-weight: normal;
+      font-size: 20px
+    }
+    h5 {
+      font-weight: normal;
+      font-size: 18px;
+    }
+    button {
+      font-size: 25px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
+
+
+a {
+  position: relative;
+  color: $text-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $text-color;
+  text-decoration: none;
+}
+
+
+.highlight {
+  position: relative;
+  z-index: 1;
+}
+
+
+.highlight-drop {
+  content: "";
+  background-color: $primary-color;
+  height: 36%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  border-radius: 50px;
+  top: 49%;
+  left: 0px;
+  z-index: -1;
+}
+
+.highlight::after {
+  @extend .highlight-drop;
+}
