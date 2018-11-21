@@ -8,150 +8,181 @@ $black-color: rgb(25,25,25);
   body {
     h1 {
       font-weight: bold;
-      font-size: 35px
+      font-size: 65px
     }
     h2 {
       font-weight: bold;
-      font-size: 16px
+      font-size: 36px
 
     }
     h3 {
       font-weight: bold;
-      font-size: 12px
+      font-size: 20px
     }
     h4 {
       font-weight: normal;
-      font-size: 12px
+      font-size: 20px
     }
     h5 {
       font-weight: normal;
-      font-size: 8px
+      font-size: 18px;
+    }
+    button {
+      font-size: 25px;
     }
   }
 
-  .vgap {
-    margin-bottom: 50px;
-  }
-}
+  .xs-s-fullWidth{
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px;
 
-@media (min-width: 576px) {
-  body {
-    h1 {
-      font-weight: bold;
-      font-size: 35px
-    }
-    h2 {
-      font-weight: bold;
-      font-size: 16px
-
-    }
-    h3 {
-      font-weight: bold;
-      font-size: 12px
-    }
-    h4 {
-      font-weight: normal;
-      font-size: 12px
-    }
-    h5 {
-      font-weight: normal;
-      font-size: 8px
+    .col-12 {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
-  .vgap {
-    margin-bottom: 100px;
+  .workPanelImage {
+    max-width: 768px;
   }
 }
+
+// @media (min-width: 576px) {
+//   body {
+//     h1 {
+//       font-weight: bold;
+//       font-size: 35px
+//     }
+//     h2 {
+//       font-weight: bold;
+//       font-size: 16px
+
+//     }
+//     h3 {
+//       font-weight: bold;
+//       font-size: 12px
+//     }
+//     h4 {
+//       font-weight: normal;
+//       font-size: 12px
+//     }
+//     h5 {
+//       font-weight: normal;
+//       font-size: 8px
+//     }
+//   }
+
+//   .vgap {
+//     margin-bottom: 100px;
+//   }
+// }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   body {
     h1 {
       font-weight: bold;
-      font-size: 54px
+      font-size: 65px
     }
     h2 {
       font-weight: bold;
-      font-size: 30px
+      font-size: 36px
 
     }
     h3 {
       font-weight: bold;
-      font-size: 18px
+      font-size: 20px
     }
     h4 {
       font-weight: normal;
-      font-size: 18px
+      font-size: 20px
     }
     h5 {
       font-weight: normal;
-      font-size: 12px
+      font-size: 18px;
+    }
+    button {
+      font-size: 25px;
     }
   }
+  .workPanelImage {
+    max-width: 653px;
+  }
 
+  .md-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
   .vgap {
     margin-bottom: 200px;
   }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  body {
-    h1 {
-      font-weight: bold;
-      font-size: 65px
-    }
-    h2 {
-      font-weight: bold;
-      font-size: 36px
+// @media (min-width: 992px) {
+//   body {
+//     h1 {
+//       font-weight: bold;
+//       font-size: 65px
+//     }
+//     h2 {
+//       font-weight: bold;
+//       font-size: 36px
 
-    }
-    h3 {
-      font-weight: bold;
-      font-size: 20px
-    }
-    h4 {
-      font-weight: normal;
-      font-size: 20px
-    }
-    h5 {
-      font-weight: normal;
-      font-size: 18px
-    }
-  }
+//     }
+//     h3 {
+//       font-weight: bold;
+//       font-size: 20px
+//     }
+//     h4 {
+//       font-weight: normal;
+//       font-size: 20px
+//     }
+//     h5 {
+//       font-weight: normal;
+//       font-size: 18px
+//     }
+//   }
   
-  .vgap {
-    margin-bottom: 300px;
-  }
-}
+//   .vgap {
+//     margin-bottom: 300px;
+//   }
+// }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  body {
-    h1 {
-      font-weight: bold;
-      font-size: 65px
-    }
-    h2 {
-      font-weight: bold;
-      font-size: 36px
+// @media (min-width: 1200px) {
+//   body {
+//     h1 {
+//       font-weight: bold;
+//       font-size: 65px
+//     }
+//     h2 {
+//       font-weight: bold;
+//       font-size: 36px
 
-    }
-    h3 {
-      font-weight: bold;
-      font-size: 20px
-    }
-    h4 {
-      font-weight: normal;
-      font-size: 20px
-    }
-    h5 {
-      font-weight: normal;
-      font-size: 18px
-    }
-  }
-}
+//     }
+//     h3 {
+//       font-weight: bold;
+//       font-size: 20px
+//     }
+//     h4 {
+//       font-weight: normal;
+//       font-size: 20px
+//     }
+//     h5 {
+//       font-weight: normal;
+//       font-size: 18px;
+//     }
+//     button {
+//       font-size: 25px;
+//     }
+//   }
+//   .workPanel .image {
+//     max-width: 653px;
+//   }
+// }
 
 
 a {
@@ -168,6 +199,7 @@ a:hover {
 .App {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  overflow-x : hidden;
 }
 
 .container-fluid {
@@ -186,29 +218,34 @@ a:hover {
   background-color: $black-color;
   color: white;
 
-  .container {
-    display: flex;
-    align-items: center;
+  // .container {
+  //   display: flex;
+  //   align-items: center;
 
-    .allrights {
-      flex-grow: 1;
-      text-align: left;
-    }
-  }
+  //   .allrights {
+  //     flex-grow: 1;
+  //     text-align: left;
+  //   }
+  // }
 
-  .nav{
-    height: 104px;
-    align-items: center;
-  }
+  // .nav{
+  //   height: 104px;
+  //   align-items: center;
+  // }
 
-  .nav-item {
-    width: 68px;
-    text-align: left;
-    margin-left: 30px;
+  // .nav-item {
+  //   width: 68px;
+  //   text-align: left;
+  //   margin-left: 30px;
+  // }
+
+  .allrights {
+    margin: 16px 0;
   }
 
   .nav-link {
     color: white;
+    margin: 30px 0;
   }
 }
 
@@ -234,7 +271,7 @@ a:hover {
 }
 
 .header {
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 @media (min-width: 992px) {
@@ -265,18 +302,25 @@ a:hover {
   background-color: rgba(255,255,255,0.9);
 }
 
-.centerPage {
+.introduction {
+  margin-bottom: 200px;
+  margin-top: 100px;
   font-size: 36px;
-  
+  position: relative;
+
   p {
+    @extend h2;
     margin-bottom: 0;
-    line-height: 47px;
   }
 
-  .next i {
+  i.material-icons {
     color: $primary-color;
     font-size: 56px;
-    margin-top: 72px;
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+
+    transform: translate(-50%, 50%);
   }
 }
 
@@ -287,27 +331,63 @@ a:hover {
 
 .workPanel {
   display: flex;
+  flex-wrap: wrap;
   text-align: left;
   align-items: flex-end;
+}
 
-  h4 {
-    line-height: 140%;
-    max-width: 400px;
-    margin-bottom: 0;
+// .workPanel.right {
+//   text-align: right;
+//   flex-direction: row-reverse;
+// }
+
+// .workDescription {
+//   min-width: 310px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+//   align-items: flex-start;
+
+// }
+
+// .workPanel.right .content {
+//   align-items: flex-end;
+// }
+
+.workPanelImage {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
   }
 }
 
-.workPanel.right {
-  text-align: right;
-  flex-direction: row-reverse;
+.workPanelCategory {
+  @extend h6;
+  margin-bottom: 10px;
 }
 
-.workPanel .content {
-  min-width: 310px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+.workPanelTitle {
+  @extend h1;
+  margin-bottom: 10px;
+}
+
+.workPanelDescription {
+  @extend h4;
+  margin-bottom: 40px;
+}
+
+.workPanelSeeCaseStudy {
+  @extend h4;
+  margin-bottom: 110px;
 
   a::after {
     @extend .highlight-drop;
@@ -318,26 +398,6 @@ a:hover {
   a:hover::after {
     @extend .highlight-drop;
     top: 50%;
-  }
-}
-
-.workPanel.right .content {
-  align-items: flex-end;
-}
-
-.workPanel .image {
-  max-width: 653px;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    position: relative;
-    width: 100%;
-    height: auto;
   }
 }
 
@@ -366,12 +426,12 @@ a:hover {
 
   img {
     width: 40% !important;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    // position: absolute;
+    // top: 50px;
+    // left: 0;
+    // right: 0;
+    // margin-left: auto;
+    // margin-right: auto;
   }
 }
 

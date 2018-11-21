@@ -1,10 +1,8 @@
 import React from 'react';
 
 export default (props) => {
-  return <div className='centerPage'>
+  return <div className={props.className}>
     { props.children }
-    <div className='next'>
-      <i className="material-icons">expand_more</i>
-    </div>
+    <i className="material-icons">expand_more</i>
   </div>;
 }

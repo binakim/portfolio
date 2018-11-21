@@ -2,20 +2,23 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 export default (props) => {
-  const className = ['workPanel row'];
-  if (props.right) {
-    className.push('right');
-  }
+  const alignment = '' ? props.right : 'right';
 
-  return <div className={ className.join(' ') }>
-    <div className='content col-12 col-md-5'>
-      {props.children}
-    <NavLink className='seeCaseStudy' to='/work1'><h4>See case study &gt;</h4></NavLink>
-    </div>
-    <div className='col-12 col-md-7'>
-      <div className={ 'image ' + props.backgroundStyle }>
-        <img src={ props.imagePath } data-rjs="2"/>
+  return <div className='workPanel'>
+    <div className='order-2 order-md-1 col-10 col-md-5'>
+      <div className={['workDescription', alignment].join(' ')}>
+        {props.children}
+      </div>
+      <div className='workPanelSeeCaseStudy'>
+        <NavLink to='/work1'>See case study &gt;</NavLink>
       </div>
     </div>
-  </div>;
+    <div className='order-1 order-md-2 xs-s-fullWidth'>
+      <div className='col-12 col-md-7'>
+        <div className={ ['workPanelImage',props.backgroundStyle].join(' ') }>
+          <img src={ props.imagePath } data-rjs="2"/>
+        </div>
+      </div>
+    </div>
+  </div>
 }
