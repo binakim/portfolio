@@ -91,12 +91,6 @@
 .workPanelSeeCaseStudy {
   @extend h5;
 
-  a::after {
-    @extend .highlight-drop;
-    height: 10%;
-    top: 50%;
-  }
-
   a:hover::after {
     @extend .highlight-drop;
     top: 50%;

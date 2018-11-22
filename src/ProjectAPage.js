@@ -80,20 +80,33 @@ export default () => {
             Set your Budget
             </div>
             <div className='description'>
-              <i className="material-icons left-col-icon">credit_card</i>
-              Register card to track
-              your travel expenses.
-            </div>
-            <div className='description'>
-              <i className="material-icons left-col-icon">attach_money</i>
-              Set the travel expenses
-              to be used by category.
-            </div>
-            <div className='description'>
-              <i className="material-icons left-col-icon">trending_up</i>
-              The amount of use per category
-              and per day can be identified
-              during the travel period.
+              <div className='budget'>
+                <div>
+                  <i className="material-icons left-col-icon">credit_card</i>
+                </div>
+                <div>
+                  Register card to track your travel expenses.
+                </div>
+              </div>
+              <div className='budget'>
+                <div>
+                  <i className="material-icons left-col-icon">attach_money</i>
+                </div>
+                <div>
+                  Set the travel expenses
+                  to be used by category.
+                </div>
+              </div>
+              <div className='budget'>
+                <div>
+                  <i className="material-icons left-col-icon">trending_up</i>
+                </div>
+                <div>
+                  The amount of use per category
+                  and per day can be identified
+                  during the travel period.
+                </div>
+              </div>
             </div>
           </div>
           <img className='p1_6' src="assets/p-a/p1_6.jpg" data-rjs="2"/>
@@ -224,21 +237,23 @@ export default () => {
           <img className='fitImage' src='assets/p-a/p1_16.png'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <div className='fullImage conclusion'>
-        <span className='section'>CONCLUSION</span>
-        <div className='content'>
-                          This case study focuses on the process of
-          validating and solving the problem, and if the
-          service is actually provided by a credit card
-          company, it will be possible to use more user data
-          as well as an automatic credit card connection.
-          The credit card company can analyze the card
-          usage patterns during the travel of the user. As the
-          service becomes more active, it can develop into a
-          community where users can share photos and
-          travel routes.
-        </div>
+      <div className='sectionPanel fullImage conclusion'>
+        <div className='container-fluid'>
+          <div className='col-12'>
+            <span className='section'>CONCLUSION</span>
+            <div className='content'>
+                              This case study focuses on the process of
+              validating and solving the problem, and if the
+              service is actually provided by a credit card
+              company, it will be possible to use more user data
+              as well as an automatic credit card connection.
+              The credit card company can analyze the card
+              usage patterns during the travel of the user. As the
+              service becomes more active, it can develop into a
+              community where users can share photos and
+              travel routes.
+            </div>
+          </div>
         </div>
       </div>
     </div>

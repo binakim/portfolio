@@ -60,6 +60,16 @@
       margin-bottom: 20px;
     }
   }
+
+  .conclusion {
+    background-color: $purple-color;
+    color: white;
+    padding: 35px 0;
+
+    .content {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .left-col-icon {
@@ -119,12 +129,11 @@
   margin-bottom: 30px;
 }
 
-.conclusion {
-  background-color: $purple-color;
-  color: white;
-  padding: 30px;
-}
-
 .fullImage.gd1 img{
   transform: translate(-27%, -15%);
+}
+
+.budget {
+  display: flex;
+  margin-bottom: 13px;
 }
