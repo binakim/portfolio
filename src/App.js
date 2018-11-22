@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 import WorkPage from './WorkPage';
 import AboutPage from './AboutPage';
+import ProjectAPage from './ProjectAPage';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Header className="Header" />
           <Route path='/' exact component={WorkPage} />
           <Route path='/about' component={AboutPage} />
+          <Route path='/project-a' component={ProjectAPage} />
           <Footer />
         </div>
       </Router>

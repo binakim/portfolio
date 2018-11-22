@@ -2,18 +2,24 @@
 
 $primary-color: rgb(80,227,194);
 $text-color: rgb(43,43,43);
+$gray-color: rgb(238,242,245);
 $black-color: rgb(25,25,25);
+$purple-color: rgb(75,68,141);
+
+.grayBackground {
+  background: $gray-color;
+}
 
 @media (min-width: 1px) {
   body {
     h1 {
       font-weight: bold;
-      font-size: 65px
+      font-size: 36px;
+      line-height: 1.17;
     }
     h2 {
       font-weight: bold;
-      font-size: 36px
-
+      font-size: 24px;
     }
     h3 {
       font-weight: bold;
@@ -21,11 +27,11 @@ $black-color: rgb(25,25,25);
     }
     h4 {
       font-weight: normal;
-      font-size: 20px
+      font-size: 16px;
     }
     h5 {
       font-weight: normal;
-      font-size: 18px;
+      font-size: 14px;
     }
     button {
       font-size: 25px;
@@ -41,20 +47,21 @@ $black-color: rgb(25,25,25);
   body {
     h1 {
       font-weight: bold;
-      font-size: 65px
+      font-size: 65px;
+      line-height: 1.17;
     }
     h2 {
       font-weight: bold;
-      font-size: 36px
+      font-size: 36px;
 
     }
     h3 {
       font-weight: bold;
-      font-size: 20px
+      font-size: 20px;
     }
     h4 {
       font-weight: normal;
-      font-size: 20px
+      font-size: 20px;
     }
     h5 {
       font-weight: normal;
@@ -108,4 +115,23 @@ a:hover {
 
 .highlight::after {
   @extend .highlight-drop;
+}
+
+.fitImage {
+  width: 100%;
+}
+
+.fullImage {
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.imageWrapper {
+  padding-bottom: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }

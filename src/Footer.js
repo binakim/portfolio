@@ -9,18 +9,18 @@ export default () => {
         <div className='row'>
           <div className='order-2 order-md-1 col-12 col-md-6'>
             <div className='allrights'>
-              <h5>&copy;2018 Bina Kim All Rights Reserved</h5>
+              &copy;2018 Bina Kim All Rights Reserved
             </div>
           </div>
           <div className='order-1 order-md-2 col-12 col-md-6'>
             <ul class="nav">
-              <li class="col-2 col-md-4">
+              <li class="col-3 col-md-4">
                 <a class="nav-link" href="#">LinkedIn</a>
               </li>
-              <li class="col-2 col-md-4">
+              <li class="col-3 col-md-4">
                 <a class="nav-link" href="#">Medium</a>
               </li>
-              <li class="col-2 col-md-4">
+              <li class="col-3 col-md-4">
                 <a class="nav-link" href="#">Email</a>
               </li>
             </ul>

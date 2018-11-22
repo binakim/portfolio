@@ -1,0 +1,130 @@
+@import 'common.scss';
+
+.project {
+
+  text-align: left;
+
+  @media (min-width: 768px) {
+    .workPanelImage {
+      max-width: 100vw;
+      width: 100vw;
+      padding-top: 400px;
+    }
+  }
+
+  .workPanelDescription {
+    margin-bottom: 70px;
+  }
+
+  .sectionPanel {
+    margin-bottom: 70px;
+  }
+
+  .section {
+    margin: 0 0 20px 0;
+  }
+
+  .content {
+    margin-bottom: 20px;
+
+    .subtitle {
+      @extend h3;
+    }
+  }
+
+  .section::after {
+    background-color: $black-color;
+    height: 5%;
+    top: -5px;
+  }
+
+  .examples {
+    background-color: $gray-color;
+    color: $purple-color;
+
+    .title {
+      @extend h2;
+      margin-bottom: 13px;
+
+      .location-icon {
+        position: relative;
+        top: 6px;
+        margin-left: -12px;
+        font-size: 30px;
+
+      }
+    }
+    .description {
+      @extend h4;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.left-col-icon {
+  float: left;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+.p_text {
+  margin: 20px 30px;
+}
+
+.p1_3 {
+  width: 200%;
+  transform: translateX(-27%);
+}
+
+.p1_4 {
+  width: 200%;
+  transform: translateX(-23%);
+}
+.p1_5 {
+  width: 200%;
+  transform: translateX(-25%);
+}
+
+.p1_6 {
+  width: 200%;
+  transform: translateX(-15%);
+}
+.p1_7 {
+  width: 200%;
+  transform: translateX(-25.5%);
+}
+.p1_8 {
+  width: 200%;
+  transform: translate(-27%, -15%);
+}
+
+.insight_entry {
+  display: flex;
+}
+
+.insight_profile {
+  margin-right: 20px;
+}
+
+.insight_statement{
+  font-style: italic;
+  margin-bottom: 16px
+}
+
+.insight_name{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.conclusion {
+  background-color: $purple-color;
+  color: white;
+  padding: 30px;
+}
+
+.fullImage.gd1 img{
+  transform: translate(-27%, -15%);
+}
