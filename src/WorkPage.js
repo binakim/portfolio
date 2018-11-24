@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
@@ -33,5 +34,8 @@ export default () => {
       <div className='workPanelTitle'>Channel Hyundai Card</div>
       <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>
     </WorkPanel>
+    <div className='backToTop'>
+      <NavLink to='/work1'>Back to top</NavLink>
+    </div>
   </div>
 }

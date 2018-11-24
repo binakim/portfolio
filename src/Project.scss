@@ -4,6 +4,12 @@
 
   text-align: left;
 
+  @media (min-width: 1px) {
+    .fullWidthYShift {
+      transform: translate(0, 30%);
+    }
+  }
+
   @media (min-width: 768px) {
     .workPanelImage {
       max-width: 100vw;
@@ -130,7 +136,46 @@
 }
 
 .fullImage.gd1 img{
-  transform: translate(-27%, -15%);
+  max-width: 916px;
+  min-width: 355px;
+  width: 80%;
+  height: auto;
+
+  @media(min-width: 1px) {
+    width: 90%;
+    transform: translate(0, 0);
+  }
+  @media(min-width: 992px) {
+    transform: translate(17%, 0);
+  }
+}
+
+.fullWidthBoundHeightPanel {
+  @extend .fullImage;
+  @extend %section-margin;
+
+  overflow: visible;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 675px;
+
+  @media(min-width: 1px) {
+    padding-top: 74%;
+  }
+  @media(min-width: 992px) {
+    padding-top: 675px;
+  }
+}
+
+.fullWidthYShift {
+  position: absolute;
+  max-width: 1140px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  transform: translate(0, 30%);
 }
 
 .budget {

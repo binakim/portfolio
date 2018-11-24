@@ -11,8 +11,10 @@ import './Project.scss';
 export default () => {
   return <div className='project'>
     <div className='col-12'>
-      <div className='workPanelImage gd1'>
-        <img src='assets/p1.png' data-rjs="2"/>
+      <div className='fullWidthBoundHeightPanel gd1'>
+        <div className='fullWidthYShift'>
+          <img src='assets/p1.png' data-rjs="2"/>
+        </div>
       </div>
     </div>
     <div className='col-12'>

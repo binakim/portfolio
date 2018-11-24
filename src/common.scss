@@ -6,6 +6,57 @@ $gray-color: rgb(238,242,245);
 $black-color: rgb(25,25,25);
 $purple-color: rgb(75,68,141);
 
+%page-margin {
+  @media (min-width: 1px) {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  @media (min-width: 768px) {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}
+
+%section-margin {
+  @media (min-width: 1px) {
+    margin-bottom: 70px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 200px;
+  }
+}
+
+%section2-margin {
+  @media (min-width: 1px) {
+    margin-bottom: 55px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 200px;
+  }
+}
+
+%title-margin {
+  @media (min-width: 1px) {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+%content-margin {
+  @media (min-width: 1px) {
+    margin-bottom: 5px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+}
+
+%content-heading-margin {
+  margin-bottom: 5px;
+}
+
 .grayBackground {
   background: $gray-color;
 }
@@ -26,11 +77,9 @@ $purple-color: rgb(75,68,141);
       font-size: 20px
     }
     h4 {
-      font-weight: normal;
       font-size: 16px;
     }
     h5 {
-      font-weight: normal;
       font-size: 14px;
     }
     button {
@@ -71,6 +120,8 @@ $purple-color: rgb(75,68,141);
       font-size: 25px;
     }
   }
+
+  $secion-margin: 200px;
 }
 
 // Large devices (desktops, 992px and up)
@@ -93,6 +144,10 @@ a:hover {
   text-decoration: none;
 }
 
+a:hover::after {
+  @extend .highlight-drop;
+  top: 50%;
+}
 
 .highlight {
   position: relative;
