@@ -17,7 +17,7 @@ export default () => {
         </div>
       </div>
     </div>
-    <div className='col-12'>
+    <div className='col-12 col-md-5 projectTitle'>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>I was here</div>
       <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
