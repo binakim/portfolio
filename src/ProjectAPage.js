@@ -13,14 +13,14 @@ export default () => {
     <div className='col-12'>
       <div className='fullWidthBoundHeightPanel gd1'>
         <div className='fullWidthYShift'>
-          <img src='assets/p1.png' data-rjs="2"/>
+          <img src='assets/p-a/p1.png' data-rjs="2"/>
         </div>
       </div>
     </div>
     <div className='col-12 col-md-5 projectATitle'>
-      <div className='workPanelCategory'>UI / UX Design</div>
-      <div className='workPanelTitle'>I was here</div>
-      <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
+      <div className='topPanelCategory'>UI / UX Design</div>
+      <div className='topPanelTitle'>I was here</div>
+      <div className='topPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
     </div>
     <div>
       <div className='sectionPanel col-12'>
@@ -44,7 +44,7 @@ export default () => {
       <div className='sectionPanel col-12'>
         <div className='section'>PROBLEM</div>
         <div className='row'>
-          <div className='col-12 col-md-6'>
+          <div className='col-12 col-md-5'>
             <div className='content'>
                   Many people want to leave travel records
               after their trip. However most of the workers
@@ -58,8 +58,8 @@ export default () => {
               manage a budget?
             </div>
           </div>
-          <div className='col-12 col-md-6'>
-            <img className='fitImage' src="assets/p-a/p1_2.jpg" data-rjs="2"/>
+          <div className='col-12 col-md-7'>
+            <img className='problemImage fitImage' src="assets/p-a/p1_2.jpg" data-rjs="2"/>
           </div>
         </div>
       </div>
@@ -150,8 +150,12 @@ export default () => {
           that defined the initial version of the
           product.
         </div>
-        <div className='content'>
-          <div className='insight_entry'>
+        <div className='content row insights-bottom-fix'>
+          <div className='insight_summary order-5 order-md-1 col-12 col-md-6'>
+             <div className='insight_title'>Differentiating points</div>
+             <div>Common SNS services and trip journals should be represented differently.</div>
+          </div>
+          <div className='insight_entry order-1 order-md-2 col-12 col-md-6'>
             <div className='insight_profile'><img src='assets/p-a/p1_9_2.png' />
             </div>
             <div>
@@ -159,7 +163,11 @@ export default () => {
               <div className='insight_name'>Jenny (28 years old, Product Designer</div>
             </div>
           </div>
-          <div className='insight_entry'>
+          <div className='insight_summary order-6 order-md-3 col-12 col-md-6'>
+             <div className='insight_title'>Effective Budget Management</div>
+             <div>Designing the system to maange the amount systematically and effectively.</div>
+          </div>
+          <div className='insight_entry order-2 order-md-4 col-12 col-md-6'>
             <div className='insight_profile'><img src='assets/p-a/p1_9_3.png' />
             </div>
             <div>
@@ -167,7 +175,11 @@ export default () => {
               <div className='insight_name'>Jun (32 years old, graphic designer)</div>
             </div>
           </div>
-          <div className='insight_entry'>
+          <div className='insight_summary order-7 order-md-5 col-12 col-md-6'>
+             <div className='insight_title'>Various transportation</div>
+             <div>When recording a trip, you need ot consider various means of transportation and variables during your trip.</div>
+          </div>
+          <div className='insight_entry order-3 order-md-6 col-12 col-md-6'>
             <div className='insight_profile'><img src='assets/p-a/p1_9_4.png' />
             </div>
             <div>
@@ -175,7 +187,11 @@ export default () => {
               <div className='insight_name'>Michael (37 years old, Finance manager)</div>
             </div>
           </div>
-          <div className='insight_entry'>
+          <div className='insight_summary order-8 order-md-7 col-12 col-md-6'>
+             <div className='insight_title'>Simplification of map</div>
+             <div>It should be able to show various information such as photographs, used amount, and location information in a concise and organized structure.</div>
+          </div>
+          <div className='insight_entry order-4 order-md-8 col-12 col-md-6'>
             <div className='insight_profile'><img src='assets/p-a/p1_9_5.png' />
             </div>
             <div>
@@ -183,6 +199,7 @@ export default () => {
               <div className='insight_name'>Ruby Mag (47 years old, College Instructor)</div>
             </div>
           </div>
+          <div className='insights_date'>Interview data: 24, February 2018</div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
@@ -193,7 +210,7 @@ export default () => {
           exif data used during travel.
         </div>
         <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_9.png'/>
+          <img className='fitImage' src='assets/p-a/p1_9.png' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>

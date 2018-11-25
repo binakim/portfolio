@@ -44,6 +44,15 @@ $purple-color: rgb(75,68,141);
   }
 }
 
+%inverse-title-margin {
+  @media (min-width: 1px) {
+    margin-bottom: -20px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: -30px;
+  }
+}
+
 %content-margin {
   @media (min-width: 1px) {
     margin-bottom: 5px;
@@ -82,6 +91,9 @@ $purple-color: rgb(75,68,141);
     h5 {
       font-size: 14px;
     }
+    h6 {
+      font-size: 12px;
+    }
     button {
       font-size: 25px;
     }
@@ -115,6 +127,9 @@ $purple-color: rgb(75,68,141);
     h5 {
       font-weight: normal;
       font-size: 18px;
+    }
+    h6 {
+      font-size: 12px;
     }
     button {
       font-size: 25px;
