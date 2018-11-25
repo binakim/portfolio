@@ -13,15 +13,15 @@ export default () => {
             </div>
           </div>
           <div className='order-1 order-md-2 col-12 col-md-6'>
-            <ul class="nav">
-              <li class="col-3 col-md-4">
-                <a class="nav-link" href="#">LinkedIn</a>
+            <ul className="nav">
+              <li className="col-3 col-md-4">
+                <a className="nav-link" href="#">LinkedIn</a>
               </li>
-              <li class="col-3 col-md-4">
-                <a class="nav-link" href="#">Medium</a>
+              <li className="col-3 col-md-4">
+                <a className="nav-link" href="#">Medium</a>
               </li>
-              <li class="col-3 col-md-4">
-                <a class="nav-link" href="#">Email</a>
+              <li className="col-3 col-md-4">
+                <a className="nav-link" href="#">Email</a>
               </li>
             </ul>
           </div>

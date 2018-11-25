@@ -267,7 +267,7 @@ export default () => {
           <img className='fitImage' src='assets/p-a/p1_16.png'/>
         </div>
       </div>
-      <div className='sectionPanel col-12 fullImage conclusion'>
+      <div className='sectionPanel fullImage conclusion'>
         <div className='container-fluid'>
           <div className='col-12'>
             <div className='section'>CONCLUSION</div>

@@ -25,6 +25,11 @@
     }
     .gd1 {
       padding-top: 74%;
+
+      img {
+        width: 90%;
+        transform: translate(0, 0);
+      }
     }
 
     .p1_3 {
@@ -90,6 +95,11 @@
 
     .gd1 {
       padding-top: 675px;
+
+      img {
+        width: 90%;
+        transform: translate(17%, 0);
+      }
     }
 
     .p_text {
@@ -297,13 +307,10 @@
   width: 80%;
   height: auto;
 
-  @media(min-width: 1px) {
-    width: 90%;
-    transform: translate(0, 0);
-  }
-  @media(min-width: 992px) {
-    transform: translate(17%, 0);
-  }
+}
+
+.fullImage > img {
+  height: auto;
 }
 
 .fullWidthBoundHeightPanel {
