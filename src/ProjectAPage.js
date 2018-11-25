@@ -17,14 +17,14 @@ export default () => {
         </div>
       </div>
     </div>
-    <div className='col-12 col-md-5 projectTitle'>
+    <div className='col-12 col-md-5 projectATitle'>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>I was here</div>
       <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
     </div>
-    <div className='col-12'>
-      <div className='sectionPanel'>
-        <span className='section'>OVERVIEW</span>
+    <div>
+      <div className='sectionPanel col-12'>
+        <div className='section'>OVERVIEW</div>
         <div className='content'>
               According to research, the most frequently
           issued credit card in 2017 is the Chase
@@ -41,23 +41,29 @@ export default () => {
           collection.
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>PROBLEM</span>
-        <div className='content'>
-              Many people want to leave travel records
-          after their trip. However most of the workers
-          are busier after traveling, and the
-          information such as the place, the location,
-          etc. that traveled over time becomes
-          increasingly difficult to remember. In
-          addition, many people have spent more
-          money than they thought during a trip.How
-          can I easily and accurately record travel and
-          manage a budget?
+      <div className='sectionPanel col-12'>
+        <div className='section'>PROBLEM</div>
+        <div className='row'>
+          <div className='col-12 col-md-6'>
+            <div className='content'>
+                  Many people want to leave travel records
+              after their trip. However most of the workers
+              are busier after traveling, and the
+              information such as the place, the location,
+              etc. that traveled over time becomes
+              increasingly difficult to remember. In
+              addition, many people have spent more
+              money than they thought during a trip.How
+              can I easily and accurately record travel and
+              manage a budget?
+            </div>
+          </div>
+          <div className='col-12 col-md-6'>
+            <img className='fitImage' src="assets/p-a/p1_2.jpg" data-rjs="2"/>
+          </div>
         </div>
-        <img className='fitImage' src="assets/p-a/p1_2.jpg" data-rjs="2"/>
       </div>
-      <div className='sectionPanel examples'>
+      <div className='sectionPanel col-12 examples'>
         <div className='fullImage grayBackground'>
           <img className='p1_3' src="assets/p-a/p1_3.jpg" data-rjs="2"/>
         </div>
@@ -65,7 +71,7 @@ export default () => {
           <img className='p1_4' src="assets/p-a/p1_4.jpg" data-rjs="2"/>
         </div>
         <div className='fullImage grayBackground'>
-          <div className='p_text'>
+          <div className='p_text p1_1_text'>
             <div className='title'>
             <i className="material-icons location-icon">location_on</i>
             Set your trip
@@ -74,10 +80,13 @@ export default () => {
             Input your trip location and date
             </div>
           </div>
+          <div className='p_text p1_5_1_text'>
+            <img className='p1_5_1' src="assets/p-a/p1_5_1.png" data-rjs="2"/>
+          </div>
           <img className='p1_5' src="assets/p-a/p1_5.jpg" data-rjs="2"/>
         </div>
         <div className='fullImage grayBackground'>
-          <div className='p_text'>
+          <div className='p_text p1_2_text'>
             <div className='title'>
             Set your Budget
             </div>
@@ -111,12 +120,14 @@ export default () => {
               </div>
             </div>
           </div>
+          <div className='p_text p1_6_1_text'>
+            <img className='p1_6_1' src="assets/p-a/p1_6_1.png" data-rjs="2"/>
+          </div>
           <img className='p1_6' src="assets/p-a/p1_6.jpg" data-rjs="2"/>
         </div>
         <div className='fullImage grayBackground'>
-          <div className='p_text'>
+          <div className='p_text p1_3_text'>
             <div className='title'>
-            <i className="material-icons location-icon">location_on</i>
             Record Your Journey
             </div>
             <div className='description'>
@@ -131,8 +142,8 @@ export default () => {
           <img className='p1_8' src="assets/p-a/p1_8.jpg" data-rjs="2"/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>INSIGHTS</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>INSIGHTS</div>
         <div className='content'>
               I conducted user interviews to drive the
           planning phase. These are the key findings
@@ -174,8 +185,8 @@ export default () => {
           </div>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>SOLUTION</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>SOLUTION</div>
         <div className='content'>
             Create a travel journal & manage travel
           budget by recording the card data and photo
@@ -185,20 +196,20 @@ export default () => {
           <img className='fitImage' src='assets/p-a/p1_9.png'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>RESEARCH</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>RESEARCH</div>
         <div className='content'>
           <img className='fitImage' src='assets/p-a/p1_10.jpg'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>STORY BOARD</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>STORY BOARD</div>
         <div className='content'>
           <img className='fitImage' src='assets/p-a/p1_12.png'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>SIMULATION TEST</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>SIMULATION TEST</div>
         <div className='content'>
           <div className='subtitle'>Route Test</div>
           <div>Drawing the route based on the card payment</div>
@@ -210,8 +221,8 @@ export default () => {
           <img className='fitImage' src='assets/p-a/p1_13_2.jpg'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>TASK FLOW</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>TASK FLOW</div>
         <div className='content'>
           <div>Sign up / Card reigster</div>
           <img className='fitImage' src='assets/p-a/p1_14.png'/>
@@ -225,24 +236,24 @@ export default () => {
           <img className='fitImage' src='assets/p-a/p1_14_3.png'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>WIREFRAMES</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>WIREFRAMES</div>
         <div className='content'>
           <img className='fitImage' src='assets/p-a/p1_15.png'/>
           <img className='fitImage' src='assets/p-a/p1_15_2.png'/>
           <img className='fitImage' src='assets/p-a/p1_15_3.png'/>
         </div>
       </div>
-      <div className='sectionPanel'>
-        <span className='section'>USER TEST</span>
+      <div className='sectionPanel col-12'>
+        <div className='section'>USER TEST</div>
         <div className='content'>
           <img className='fitImage' src='assets/p-a/p1_16.png'/>
         </div>
       </div>
-      <div className='sectionPanel fullImage conclusion'>
+      <div className='sectionPanel col-12 fullImage conclusion'>
         <div className='container-fluid'>
           <div className='col-12'>
-            <span className='section'>CONCLUSION</span>
+            <div className='section'>CONCLUSION</div>
             <div className='content'>
                               This case study focuses on the process of
               validating and solving the problem, and if the
