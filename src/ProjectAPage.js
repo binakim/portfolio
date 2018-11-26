@@ -202,7 +202,7 @@ export default () => {
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>SOLUTION</div>
-        <div className='solution content'>
+        <div className='title narrow content'>
             Create a travel journal & manage travel
           budget by recording the card data and photo
           exif data used during travel.

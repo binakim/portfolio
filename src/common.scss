@@ -5,6 +5,7 @@ $text-color: rgb(43,43,43);
 $gray-color: rgb(238,242,245);
 $black-color: rgb(25,25,25);
 $purple-color: rgb(75,68,141);
+$yellow-color: rgb(255,201,5);
 
 %page-margin {
   @media (min-width: 1px) {
@@ -68,6 +69,15 @@ $purple-color: rgb(75,68,141);
   }
   @media (min-width: 768px) {
     margin-bottom: -30px;
+  }
+}
+
+%inverse-section3-margin {
+  @media (min-width: 1px) {
+    margin-bottom: -55px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: -100px;
   }
 }
 

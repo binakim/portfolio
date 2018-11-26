@@ -60,78 +60,52 @@ export default () => {
             </div>
           </div>
           <div className='col-12 col-md-6'>
-            <div className='content'>
+            <div className='content caption'>
               E-Cigarette profits could surpass those of combustible cigaretts within 10 years
             </div>
           </div>
-          <div className='col-12 col-md-7'>
-            <img className='problemImage fitImage' src="assets/p-a/p1_2.jpg" data-rjs="2"/>
+          <div className='col-12 col-md-6'>
+            <img className='fitImage' src="assets/p3/p3_1.jpg" data-rjs="2"/>
           </div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section textOnly'>INSIGHTS</div>
-        <div className='content'>
-              I conducted user interviews to drive the
-          planning phase. These are the key findings
-          that defined the initial version of the
-          product.
-        </div>
-        <div className='content row'>
-          <div className='insight_summary order-5 order-md-1 col-12 col-md-6'>
-             <div className='insight_title'>Differentiating points</div>
-             <div>Common SNS services and trip journals should be represented differently.</div>
+        <div className='section textOnly'>RESEARCH</div>
+        <div className='row inverse_sectionImage'>
+          <div className='col-12 col-md-6'>
+            <img className='sectionImage fitImage' src="assets/p3/p3_2.jpg" data-rjs="2"/>
           </div>
-          <div className='insight_entry order-1 order-md-2 col-12 col-md-6'>
-            <div className='insight_profile'><img src='assets/p-a/p1_9_2.png' />
-            </div>
-            <div>
-              <div className='insight_statement'>“I like the budget management feature because I always spend over budget on my traveling.”</div>
-              <div className='insight_name'>Jenny (28 years old, Product Designer</div>
-            </div>
+          <div className='col-12 col-md-6'>
+            <img className='sectionImage fitImage' src="assets/p3/p3_2_2.jpg" data-rjs="2"/>
           </div>
-          <div className='insight_summary order-6 order-md-3 col-12 col-md-6'>
-             <div className='insight_title'>Effective Budget Management</div>
-             <div>Designing the system to maange the amount systematically and effectively.</div>
-          </div>
-          <div className='insight_entry order-2 order-md-4 col-12 col-md-6'>
-            <div className='insight_profile'><img src='assets/p-a/p1_9_3.png' />
-            </div>
-            <div>
-              <div className='insight_statement'>“What is different from saving on Google Maps?”</div>
-              <div className='insight_name'>Jun (32 years old, graphic designer)</div>
-            </div>
-          </div>
-          <div className='insight_summary order-7 order-md-5 col-12 col-md-6'>
-             <div className='insight_title'>Various transportation</div>
-             <div>When recording a trip, you need ot consider various means of transportation and variables during your trip.</div>
-          </div>
-          <div className='insight_entry order-3 order-md-6 col-12 col-md-6'>
-            <div className='insight_profile'><img src='assets/p-a/p1_9_4.png' />
-            </div>
-            <div>
-              <div className='insight_statement'>“How to show the whole journey, if I move by car or bicycle?”</div>
-              <div className='insight_name'>Michael (37 years old, Finance manager)</div>
-            </div>
-          </div>
-          <div className='insight_summary order-8 order-md-7 col-12 col-md-6'>
-             <div className='insight_title'>Simplification of map</div>
-             <div>It should be able to show various information such as photographs, used amount, and location information in a concise and organized structure.</div>
-          </div>
-          <div className='insight_entry order-4 order-md-8 col-12 col-md-6'>
-            <div className='insight_profile'><img src='assets/p-a/p1_9_5.png' />
-            </div>
-            <div>
-              <div className='insight_statement'>“People use Facebook or Instagram for  record their trip. What are the differentiators?”</div>
-              <div className='insight_name'>Ruby Mag (47 years old, College Instructor)</div>
-            </div>
-          </div>
-          <div className='insights_date'>Interview data: 24, February 2018</div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>SOLUTION</div>
-        <div className='solution content'>
+        <div className='section textOnly'>PROBLEMS</div>
+        <div className='title content'>
+              To purchase a cigarette on the market, you
+          need to check your ID, but if you have a
+          credit card online, you can buy a cigarette
+          without an ID check. As described above, an
+          authentication method for an article
+          requiring an ID check is also required online.
+        </div>
+        <div className='row inverse_sectionImage'>
+          <div className='entry col-12 col-md-6'>
+            <div className='subtitle entry content'>Cigarette</div>
+            <div className='entry content'>Warning pictures &messages<br/> Face to Face ID check</div>
+            <img className='sectionImage p3_3_1 fitImage' src="assets/p3/p3_3.jpg" data-rjs="2"/>
+          </div>
+          <div className='entry col-12 col-md-6'>
+            <div className='subtitle entry content'>E-Cigarette</div>
+            <div className='entry content'>No warning messages <br/> Youth prevention announcement & Credit Card check</div>
+            <img className='sectionImage p3_3_2 fitImage' src="assets/p3/p3_3_2.jpg" data-rjs="2"/>
+          </div>
+        </div>
+      </div>
+      <div className='sectionPanel col-12'>
+        <div className='section'>TARGET</div>
+        <div className='title content'>
             Create a travel journal & manage travel
           budget by recording the card data and photo
           exif data used during travel.

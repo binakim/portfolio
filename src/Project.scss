@@ -30,10 +30,18 @@
 
   }
 
+  .section::after {
+    background-color: $black-color;
+  }
+
   .fullImage.gd1 img{
     max-width: 916px;
     min-width: 355px;
     height: auto;
+  }
+
+  .problemImage {
+    margin-top: -88px;
   }
 }
 
@@ -85,18 +93,26 @@
     }
   }
 
+  .section::after {
+    background-color: $yellow-color;
+  }
+
   .fullImage.gd3 img{
     max-width: 500px;
     min-width: 122px;
     height: auto;
   }
+
+  .p3_3_1 {
+    max-width: 306px;
+  }
+
+  .p3_3_2 {
+    max-width: 484px;
+  }
 }
 
 .project {
-  position: relative;
-
-  text-align: left;
-
   @media (min-width: 1px) {
     .topPanelCategory {
       font-size: 13px;
@@ -250,11 +266,7 @@
       transform: translateX(-20%);
     }
 
-    .problemImage {
-      margin-top: -88px;
-    }
-
-    .solution.content {
+    .narrow.content {
       margin-left: 100px;
       margin-right: 100px;
     }
@@ -264,6 +276,15 @@
       margin-bottom: 100px;
       padding: 100px 0;
     }
+  }
+
+  // project specific
+  position: relative;
+  text-align: left;
+
+  .caption {
+    font-weight: bold;
+    text-align: center;
   }
 
   .topPanelDescription {
@@ -283,6 +304,14 @@
     @extend %title-margin;
   }
 
+  .sectionImage {
+    @extend %section3-margin;
+  }
+
+  .inverse_sectionImage {
+    @extend %inverse-section3-margin;
+  }
+
   .content {
     @extend h4;
     @extend %title-margin;
@@ -290,7 +319,6 @@
   }
 
   .section::after {
-    background-color: $black-color;
     height: 5%;
     top: -5px;
   }
@@ -409,8 +437,16 @@
   @extend %content-margin;
 }
 
-.solution.content {
+.title.content {
   @extend %title2-margin;
+}
+
+.entry.content {
+  @extend %content-margin;
+}
+
+.subtitle.content {
+  font-weight: bold;
 }
 
 .persona_profile {
