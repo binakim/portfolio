@@ -359,10 +359,26 @@ Also, I usually make a trip journal after the trip, because I want to remember t
         </div>
       </div>
     </div>
-    <div className='projectNav'>
-      <div>&lt; Previous Project</div>
-      <div className='workPanelImage gd1'>
-        <img src='assets/p-a/p1.png' data-rjs="2"/>
+    <div className='projectNav row'>
+      <div className='col-6'>
+        <div className='link'>&lt; Previous Project</div>
+        <div className='hide_mobile'>
+          <div className='thumb gd4'>
+            <img src='assets/p4.png' data-rjs="2"/>
+          </div>
+          <div className='workPanelCategory'>UX Design</div>
+          <div className='workPanelTitle'>Channel Hyundai Card</div>
+        </div>
+      </div>
+      <div className='col-6'>
+        <div className='link text-right'>Next Project &gt;</div>
+        <div className='hide_mobile'>
+          <div className='thumb gd2'>
+            <img src='assets/p2.png' data-rjs="2"/>
+          </div>
+          <div className='workPanelCategory'>UI / UX Design</div>
+          <div className='workPanelTitle'>Social Table</div>
+        </div>
       </div>
     </div>
   </div>

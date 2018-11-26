@@ -65,6 +65,9 @@
     .p1_6_1_text {
       display: none;
     }
+    .conclusion {
+      padding: 35px 0;
+    }
 
   }
 
@@ -177,6 +180,12 @@
       margin-left: 100px;
       margin-right: 100px;
     }
+
+    .conclusion {
+      margin-top: -100px;
+      margin-bottom: 100px;
+      padding: 100px 0;
+    }
   }
 
   .topPanelDescription {
@@ -231,7 +240,6 @@
   .conclusion {
     background-color: $purple-color;
     color: white;
-    padding: 35px 0;
 
     .content {
       margin-bottom: 0;
@@ -382,4 +390,48 @@
 
 .sim_description {
   @extend %content-margin;
+}
+
+.projectNav {
+  @extend %bottom-nav-margin;
+  display: flex;
+  flex-wrap: wrap;
+
+  .thumb{
+    overflow: hidden;
+    padding-top: 60%;
+    position: relative;
+    margin-bottom: 24px;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: auto;
+    }
+  }
+
+  .link {
+    @extend h4;
+    @extend %title-margin;
+    font-weight: bold;
+  }
+
+  .workPanelCategory {
+    font-size: 25px;
+    margin-bottom: 13px;
+  }
+
+  .workPanelTitle {
+    font-size: 48px;
+  }
+  
+  .gd4 > img {
+    transform: translate(-50%, -40%);
+    width: 80%;
+  }
+  .gd2 > img {
+    transform: translate(-50%, -40%);
+    width: 70%;
+  }
 }

@@ -75,6 +75,16 @@ $purple-color: rgb(75,68,141);
   margin-bottom: 5px;
 }
 
+%bottom-nav-margin {
+  @media (min-width: 1px) {
+    margin-top: -35px;
+    margin-bottom: 15px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 200px;
+  }
+}
+
 .grayBackground {
   background: $gray-color;
 }
