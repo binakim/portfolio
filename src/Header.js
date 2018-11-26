@@ -8,9 +8,11 @@ class Header extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light header">
-          <a className="navbar-brand" href="#">
-            <img src="assets/logo_black.png" data-rjs="2" width="30" alt="" />
-          </a>
+          <NavLink to="/" activeclass="active">
+            <span className="navbar-brand" href="#">
+              <img src="assets/logo_black.png" data-rjs="2" width="30" alt="" />
+            </span>
+          </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
