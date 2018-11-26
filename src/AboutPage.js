@@ -12,7 +12,7 @@ export default () => {
         <div className='statement'>
           <img className='quote-l' src='assets/Quotation1.png' data-rjs='2'/>I'm not just a <span className='highlight'>problem-solving</span> designer. I can <span className='highlight'>creating</span> something that <span className='highlight'>inspires people</span> with new <span className='highlight'>experiences</span>.<img src='assets/Quotation2.png' className='quote-r' data-rjs='2'/>
         </div>
-        <div className='resumeButton col-6'>
+        <div className='resumeButton'>
           <button type='button' class='btn'>RESUME &gt;</button>
         </div>
       </div>
