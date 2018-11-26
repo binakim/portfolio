@@ -9,10 +9,10 @@ import './WorkPage.scss';
 export default () => {
   return <div>
     <CenteredPage className='introduction'> 
-      <p>Hello, I'm <span className='highlight'>Bina Kim</span>.</p>
-      <p>A <span className='highlight'>product designer</span></p>
-      <p>who <span className='highlight'>designs</span> delightful</p>
-      <p><span className='highlight'>User Experience</span>.</p>
+      Hello, I'm <span className='highlight'>Bina Kim</span>.<br/>
+      A <span className='highlight'>product designer</span><br/>
+      who <span className='highlight'>designs</span> delightful<br/>
+      User Experience.<br/>
     </CenteredPage>
     <WorkPanel target='/project-a' backgroundStyle='gd1' imagePath='assets/p1.png'>
       <div className='workPanelCategory'>UI / UX Design</div>

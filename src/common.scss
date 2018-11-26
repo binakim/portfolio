@@ -141,8 +141,9 @@ $yellow-color: rgb(255,201,5);
     }
   }
 
-  %introFont {
+  %statementText {
     font-size: 18px;
+    line-height: 1.55;
   }
 }
 
@@ -180,8 +181,9 @@ $yellow-color: rgb(255,201,5);
     }
   }
 
-  %introFont {
+  %statementText {
     font-size: 36px;
+    line-height: 1.55;
   }
 
   .hide_mobile {
