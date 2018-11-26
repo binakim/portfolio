@@ -19,7 +19,7 @@ export default () => {
         </div>
       </div>
     </div>
-    <div className='col-12 col-md-4 projectATitle'>
+    <div className='col-12 col-lg-4 projectATitle'>
       <div className='topPanelCategory'>UI / UX Design</div>
       <div className='topPanelTitle'>I was here</div>
       <div className='topPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
