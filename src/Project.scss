@@ -412,8 +412,8 @@
   }
 
   .link {
-    @extend h4;
     @extend %title-margin;
+    @extend h4;
     font-weight: bold;
   }
 

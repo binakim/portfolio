@@ -10,7 +10,7 @@ export default (props) => {
         {props.children}
       </div>
       <div className='workPanelSeeCaseStudy'>
-        <NavLink to='/work1'>See case study &gt;</NavLink>
+      <NavLink to={ props.target} >See case study &gt;</NavLink>
       </div>
     </div>
     <div className='order-1 order-md-2 col-12 col-md-7'>

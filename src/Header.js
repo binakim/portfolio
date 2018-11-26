@@ -22,9 +22,6 @@ class Header extends React.Component {
               <li className="nav-item">
                 <NavLink to="/about" activeclass="active">ABOUT</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/project-a" activeclass="active">project a</NavLink>
-              </li>
             </ul>
           </div>
         </nav>

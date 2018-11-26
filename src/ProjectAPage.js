@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
@@ -359,9 +360,11 @@ Also, I usually make a trip journal after the trip, because I want to remember t
         </div>
       </div>
     </div>
-    <div className='projectNav row'>
+    <div className='projectNav'>
       <div className='col-6'>
-        <div className='link'>&lt; Previous Project</div>
+        <div className='link'>
+          <NavLink to='/project-d'>&lt; Previous Project</NavLink>
+        </div>
         <div className='hide_mobile'>
           <div className='thumb gd4'>
             <img src='assets/p4.png' data-rjs="2"/>
@@ -370,8 +373,10 @@ Also, I usually make a trip journal after the trip, because I want to remember t
           <div className='workPanelTitle'>Channel Hyundai Card</div>
         </div>
       </div>
-      <div className='col-6'>
-        <div className='link text-right'>Next Project &gt;</div>
+      <div className='col-6 text-right'>
+        <div className='link'>
+          <NavLink to='/project-d'>Next Project &gt;</NavLink>
+        </div>
         <div className='hide_mobile'>
           <div className='thumb gd2'>
             <img src='assets/p2.png' data-rjs="2"/>
