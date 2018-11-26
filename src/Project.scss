@@ -180,6 +180,11 @@
     .problemImage {
       margin-top: -88px;
     }
+
+    .solution.content {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
   }
 
   .topPanelDescription {
@@ -193,11 +198,12 @@
   }
 
   .section {
-    @extend %title-margin;
+    @extend %title2-margin;
     margin-top: 5px;
   }
 
   .content {
+    @extend h4;
     @extend %title-margin;
 
     .subtitle {
@@ -335,6 +341,40 @@
 
 .budget {
   display: flex;
-  margin-bottom: 13px;
+  @extend %content-margin;
 }
 
+.solution.content {
+  @extend %title2-margin;
+}
+
+.persona_profile {
+  font-size: 14px;
+  text-align: center;
+
+  > img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .persona_name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.persona_content {
+  font-size: 14px;
+  text-align: left;
+
+  .persona_quote {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .persona_env {
+    font-weight: bold;
+  }
+  .persona_text {
+    margin-bottom: 20px;
+  }
+}

@@ -44,6 +44,15 @@ $purple-color: rgb(75,68,141);
   }
 }
 
+%title2-margin {
+  @media (min-width: 1px) {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 100px;
+  }
+}
+
 %inverse-title-margin {
   @media (min-width: 1px) {
     margin-bottom: -20px;
@@ -68,6 +77,10 @@ $purple-color: rgb(75,68,141);
 
 .grayBackground {
   background: $gray-color;
+}
+
+.hide_mobile {
+  display: none;
 }
 
 @media (min-width: 1px) {
@@ -134,6 +147,10 @@ $purple-color: rgb(75,68,141);
     button {
       font-size: 25px;
     }
+  }
+
+  .hide_mobile {
+    display: block;
   }
 
   $secion-margin: 200px;

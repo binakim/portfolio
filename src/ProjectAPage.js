@@ -204,7 +204,7 @@ export default () => {
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>SOLUTION</div>
-        <div className='content'>
+        <div className='solution content'>
             Create a travel journal & manage travel
           budget by recording the card data and photo
           exif data used during travel.
@@ -216,13 +216,41 @@ export default () => {
       <div className='sectionPanel col-12'>
         <div className='section'>RESEARCH</div>
         <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_10.jpg'/>
+          <img className='fitImage' src='assets/p-a/p1_10.jpg' data-rjs="2"/>
+        </div>
+      </div>
+      <div className='sectionPanel col-12 hide_mobile'>
+        <div className='section'>PERSONAS</div>
+        <div className='content row'>
+          <div className='persona_profile col-md-2'>
+             <img src='assets/p-a/p1_9_2.png' data-rjs="2"/>
+             <div className='persona_name'>Jessica Jade</div>
+             <div className='persona_bio'>
+               <div>Graphic Designer</div>
+               <div>Oakland, CA</div>
+               <div>31 years old</div>
+               <div>Single</div>
+               <div>Income: 90K</div>
+             </div>
+          </div>
+          <div className='persona_content col-md-10'>
+            <div>
+              <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
+              <div className='persona_env'>Environment</div>
+              <div className='persona_text'>I've been working for as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
+              <div className='persona_env'>Goal</div>
+              <div className='persona_text'>Due to my travel style, I usually spend money a lot of travel. I need to manage my trip budget. 
+Also, I usually make a trip journal after the trip, because I want to remember that moment.</div>
+              <div className='persona_env'>Challenges</div>
+              <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>STORY BOARD</div>
         <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_12.png'/>
+          <img className='fitImage' src='assets/p-a/p1_12.png' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>
@@ -230,41 +258,41 @@ export default () => {
         <div className='content'>
           <div className='subtitle'>Route Test</div>
           <div>Drawing the route based on the card payment</div>
-          <img className='fitImage' src='assets/p-a/p1_13.jpg'/>
+          <img className='fitImage' src='assets/p-a/p1_13.jpg' data-rjs="2"/>
         </div>
         <div className='content'>
           <div className='subtitle'>Photo location & Payment location matching test</div>
           <div>Matching the payment location with photo location on the map</div>
-          <img className='fitImage' src='assets/p-a/p1_13_2.jpg'/>
+          <img className='fitImage' src='assets/p-a/p1_13_2.jpg' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>TASK FLOW</div>
         <div className='content'>
           <div>Sign up / Card reigster</div>
-          <img className='fitImage' src='assets/p-a/p1_14.png'/>
+          <img className='fitImage' src='assets/p-a/p1_14.png' data-rjs="2"/>
         </div>
         <div className='content'>
           <div>Journey record</div>
-          <img className='fitImage' src='assets/p-a/p1_14_2.png'/>
+          <img className='fitImage' src='assets/p-a/p1_14_2.png' data-rjs="2"/>
         </div>
         <div className='content'>
           <div>Budget management</div>
-          <img className='fitImage' src='assets/p-a/p1_14_3.png'/>
+          <img className='fitImage' src='assets/p-a/p1_14_3.png' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>WIREFRAMES</div>
         <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_15.png'/>
-          <img className='fitImage' src='assets/p-a/p1_15_2.png'/>
-          <img className='fitImage' src='assets/p-a/p1_15_3.png'/>
+          <img className='fitImage' src='assets/p-a/p1_15.png' data-rjs="2"/>
+          <img className='fitImage' src='assets/p-a/p1_15_2.png' data-rjs="2"/>
+          <img className='fitImage' src='assets/p-a/p1_15_3.png' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>USER TEST</div>
         <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_16.png'/>
+          <img className='fitImage' src='assets/p-a/p1_16.png' data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel fullImage conclusion'>
