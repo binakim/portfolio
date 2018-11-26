@@ -1,9 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 
-import CenteredPage from './CenteredPage';
-import WorkPanel from './WorkPanel';
-import FullImage from './FullImageComponent';
 import ProjectNav from './ProjectNav';
 
 import './AboutPage.scss';
