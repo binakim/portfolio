@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
 import FullImage from './FullImageComponent';
+import ProjectNav from './ProjectNav';
 
 import './AboutPage.scss';
 import './WorkPage.scss';
@@ -18,14 +19,14 @@ export default () => {
         </div>
       </div>
     </div>
-    <div className='col-12 col-md-5 projectATitle'>
+    <div className='col-12 col-md-4 projectATitle'>
       <div className='topPanelCategory'>UI / UX Design</div>
       <div className='topPanelTitle'>I was here</div>
       <div className='topPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
     </div>
     <div>
       <div className='sectionPanel col-12'>
-        <div className='section'>OVERVIEW</div>
+        <div className='section textOnly'>OVERVIEW</div>
         <div className='content'>
               According to research, the most frequently
           issued credit card in 2017 is the Chase
@@ -43,7 +44,7 @@ export default () => {
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>PROBLEM</div>
+        <div className='section textOnly'>PROBLEM</div>
         <div className='row'>
           <div className='col-12 col-md-5'>
             <div className='content'>
@@ -144,7 +145,7 @@ export default () => {
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>INSIGHTS</div>
+        <div className='section textOnly'>INSIGHTS</div>
         <div className='content'>
               I conducted user interviews to drive the
           planning phase. These are the key findings
@@ -343,7 +344,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
       <div className='sectionPanel fullImage conclusion'>
         <div className='container-fluid'>
           <div className='col-12'>
-            <div className='section'>CONCLUSION</div>
+            <div className='section textOnly'>CONCLUSION</div>
             <div className='content'>
                               This case study focuses on the process of
               validating and solving the problem, and if the
@@ -360,31 +361,20 @@ Also, I usually make a trip journal after the trip, because I want to remember t
         </div>
       </div>
     </div>
-    <div className='projectNav'>
-      <div className='col-6'>
-        <div className='link'>
-          <NavLink to='/project-d'>&lt; Previous Project</NavLink>
-        </div>
-        <div className='hide_mobile'>
-          <div className='thumb gd4'>
-            <img src='assets/p4.png' data-rjs="2"/>
-          </div>
-          <div className='workPanelCategory'>UX Design</div>
-          <div className='workPanelTitle'>Channel Hyundai Card</div>
-        </div>
-      </div>
-      <div className='col-6 text-right'>
-        <div className='link'>
-          <NavLink to='/project-d'>Next Project &gt;</NavLink>
-        </div>
-        <div className='hide_mobile'>
-          <div className='thumb gd2'>
-            <img src='assets/p2.png' data-rjs="2"/>
-          </div>
-          <div className='workPanelCategory'>UI / UX Design</div>
-          <div className='workPanelTitle'>Social Table</div>
-        </div>
-      </div>
-    </div>
+    <ProjectNav 
+      prev={{
+        href: '/project-d',
+        className: 'gd4',
+        imgUrl: 'assets/p4.png',
+        category: 'UI / UX Design',
+        title: 'Channel Hyundai Card'
+      }}
+      next={{
+        href: '/project-b',
+        className: 'gd2',
+        imgUrl: 'assets/p2.png',
+        category: 'UI / UX Design',
+        title: 'Social Table'
+      }}/>
   </div>
 }

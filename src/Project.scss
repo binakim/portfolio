@@ -203,6 +203,10 @@
     margin-top: 5px;
   }
 
+  .section.textOnly {
+    @extend %title-margin;
+  }
+
   .content {
     @extend h4;
     @extend %title-margin;
@@ -389,7 +393,7 @@
 }
 
 .sim_description {
-  @extend %content-margin;
+  @extend %title-margin;
 }
 
 .projectNav {
@@ -418,11 +422,13 @@
   }
 
   .workPanelCategory {
+    text-align: left;
     font-size: 25px;
     margin-bottom: 13px;
   }
 
   .workPanelTitle {
+    text-align: left;
     font-size: 48px;
   }
   
