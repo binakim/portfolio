@@ -150,7 +150,7 @@ export default () => {
           that defined the initial version of the
           product.
         </div>
-        <div className='content row insights-bottom-fix'>
+        <div className='content row'>
           <div className='insight_summary order-5 order-md-1 col-12 col-md-6'>
              <div className='insight_title'>Differentiating points</div>
              <div>Common SNS services and trip journals should be represented differently.</div>
@@ -221,9 +221,9 @@ export default () => {
       </div>
       <div className='sectionPanel col-12 hide_mobile'>
         <div className='section'>PERSONAS</div>
-        <div className='content row'>
+        <div className='content row persona_bottom_fix'>
           <div className='persona_profile col-md-2'>
-             <img src='assets/p-a/p1_9_2.png' data-rjs="2"/>
+             <img src='assets/p-a/p1_11.png' data-rjs="2"/>
              <div className='persona_name'>Jessica Jade</div>
              <div className='persona_bio'>
                <div>Graphic Designer</div>
@@ -245,6 +245,50 @@ Also, I usually make a trip journal after the trip, because I want to remember t
               <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
             </div>
           </div>
+          <div className='persona_profile col-md-2'>
+             <img src='assets/p-a/p1_11_2.png' data-rjs="2"/>
+             <div className='persona_name'>Celine Ryu</div>
+             <div className='persona_bio'>
+               <div>Digital Marketer</div>
+               <div>Seoul, South Korea</div>
+               <div>36 years old</div>
+               <div>Married</div>
+               <div>Income: 80K</div>
+             </div>
+          </div>
+          <div className='persona_content col-md-10'>
+            <div>
+              <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
+              <div className='persona_env'>Environment</div>
+              <div className='persona_text'>I've been working for as a Digital Marketer for 7 years. I goes on a short trip twice a month and a long trip once a year. I mostly use my credit card when I go to trip, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
+              <div className='persona_env'>Goal</div>
+              <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember that moment.</div>
+              <div className='persona_env'>Challenges</div>
+              <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
+            </div>
+          </div>
+          <div className='persona_profile col-md-2'>
+             <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
+             <div className='persona_name'>Ryno D. Lee</div>
+             <div className='persona_bio'>
+               <div>English Teacher</div>
+               <div>Oakland, CA</div>
+               <div>28 years old</div>
+               <div>Single</div>
+               <div>Income: 60K</div>
+             </div>
+          </div>
+          <div className='persona_content col-md-10'>
+            <div>
+              <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
+              <div className='persona_env'>Environment</div>
+              <div className='persona_text'>I’m an English teacher and musician. I go on a long trip three times a year to meet my girlfriend. I love to go to Europe and I use credit card and cash both.</div>
+              <div className='persona_env'>Goal</div>
+              <div className='persona_text'>I want to save money on foreign exchange because I travel a lot in Europe.</div>
+              <div className='persona_env'>Challenges</div>
+              <div className='persona_text'>I mostly use credit card during a trip, but many Europe stores didn’t accept credit card.</div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
@@ -255,14 +299,14 @@ Also, I usually make a trip journal after the trip, because I want to remember t
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>SIMULATION TEST</div>
-        <div className='content'>
+        <div className='sim_content'>
           <div className='subtitle'>Route Test</div>
-          <div>Drawing the route based on the card payment</div>
+          <div className='sim_description'>Drawing the route based on the card payment</div>
           <img className='fitImage' src='assets/p-a/p1_13.jpg' data-rjs="2"/>
         </div>
-        <div className='content'>
+        <div className='sim_content'>
           <div className='subtitle'>Photo location & Payment location matching test</div>
-          <div>Matching the payment location with photo location on the map</div>
+          <div className='sim_description'>Matching the payment location with photo location on the map</div>
           <img className='fitImage' src='assets/p-a/p1_13_2.jpg' data-rjs="2"/>
         </div>
       </div>
@@ -313,6 +357,12 @@ Also, I usually make a trip journal after the trip, because I want to remember t
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div className='projectNav'>
+      <div>&lt; Previous Project</div>
+      <div className='workPanelImage gd1'>
+        <img src='assets/p-a/p1.png' data-rjs="2"/>
       </div>
     </div>
   </div>
