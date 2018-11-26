@@ -105,13 +105,19 @@ export default () => {
       </div>
       <div className='sectionPanel col-12'>
         <div className='section'>TARGET</div>
-        <div className='title content'>
-            Create a travel journal & manage travel
-          budget by recording the card data and photo
-          exif data used during travel.
-        </div>
-        <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_9.png' data-rjs="2"/>
+        <div className='content row persona_bottom_fix'>
+          <div className='persona_profile twoColLayout'>
+             <div className='p3_target_circle'>
+               <div>DIRECT</div>
+             </div>
+          </div>
+          <div className='persona_content twoColLayout'>
+            <div className=''>The company wants a more secure alternative by requiring the user to validate their identity with valid 
+credentials that are compared with a selfie in real-time.<br/>
+-Finance services  ( ex. Bank, Credit card, Stock)<br/>
+-Adult product companies (ex. E-cigarettes)<br/>
+-Goverment sites</div>
+          </div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
@@ -123,7 +129,7 @@ export default () => {
       <div className='sectionPanel col-12 hide_mobile'>
         <div className='section'>PERSONAS</div>
         <div className='content row persona_bottom_fix'>
-          <div className='persona_profile col-md-2'>
+          <div className='persona_profile twoColLayout'>
              <img src='assets/p-a/p1_11.png' data-rjs="2"/>
              <div className='persona_name'>Jessica Jade</div>
              <div className='persona_bio'>
@@ -134,7 +140,7 @@ export default () => {
                <div>Income: 90K</div>
              </div>
           </div>
-          <div className='persona_content col-md-10'>
+          <div className='persona_content twoColLayout'>
             <div>
               <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
               <div className='persona_env'>Environment</div>
@@ -146,7 +152,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
               <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
             </div>
           </div>
-          <div className='persona_profile col-md-2'>
+          <div className='persona_profile twoColLayout'>
              <img src='assets/p-a/p1_11_2.png' data-rjs="2"/>
              <div className='persona_name'>Celine Ryu</div>
              <div className='persona_bio'>
@@ -157,7 +163,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
                <div>Income: 80K</div>
              </div>
           </div>
-          <div className='persona_content col-md-10'>
+          <div className='persona_content twoColLayout'>
             <div>
               <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
               <div className='persona_env'>Environment</div>
@@ -168,7 +174,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
               <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
             </div>
           </div>
-          <div className='persona_profile col-md-2'>
+          <div className='persona_profile twoColLayout'>
              <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
              <div className='persona_name'>Ryno D. Lee</div>
              <div className='persona_bio'>
@@ -179,7 +185,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
                <div>Income: 60K</div>
              </div>
           </div>
-          <div className='persona_content col-md-10'>
+          <div className='persona_content twoColLayout'>
             <div>
               <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
               <div className='persona_env'>Environment</div>

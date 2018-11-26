@@ -1,4 +1,5 @@
 @import 'node_modules/retinajs/dist/_retina.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 $primary-color: rgb(80,227,194);
 $text-color: rgb(43,43,43);
@@ -259,4 +260,13 @@ a:hover::after {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
+}
+
+.twoColLayout:nth-child(odd){
+  @extend .col-12;
+  @extend .col-md-2;
+}
+.twoColLayout:nth-child(even){
+  @extend .col-12;
+  @extend .col-md-10;
 }
