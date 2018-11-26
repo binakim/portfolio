@@ -27,6 +27,11 @@
     align-items: center;
     margin: 55px 0;
   }
+  
+  .section {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 
@@ -51,12 +56,22 @@
       text-align: left;
     }
   }
+
+  .section {
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
 
 .aboutPage {
   padding-top: 40px;
   display: flex;
   flex-wrap: wrap;
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .profilePhoto {
@@ -69,7 +84,7 @@
 }
 
 .statement{
-  @extend h3;
+  @extend %introFont;
   text-align: center;
   max-width: 570px;
   line-height: 1.8;
@@ -94,14 +109,15 @@
 }
 
 .bio {
+  @extend %section3-margin;
+
   display: flex;
   text-align: left;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .section {
-  @extend h2;
-
   display: inline-block;
   font-weight: bold;
   position: relative;

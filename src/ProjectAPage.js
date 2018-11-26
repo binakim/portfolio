@@ -7,11 +7,11 @@ import './WorkPage.scss';
 import './Project.scss';
 
 export default () => {
-  return <div className='project'>
+  return <div className='project p1'>
     <div className='col-12'>
       <div className='fullWidthBoundHeightPanel gd1'>
         <div className='fullWidthYShift'>
-          <img src='assets/p-a/p1.png' data-rjs="2"/>
+          <img src='assets/p1.png' data-rjs="2"/>
         </div>
       </div>
     </div>

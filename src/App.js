@@ -8,9 +8,9 @@ import Footer from './Footer';
 import WorkPage from './WorkPage';
 import AboutPage from './AboutPage';
 import ProjectAPage from './ProjectAPage';
-import ProjectBPage from './ProjectAPage';
-import ProjectCPage from './ProjectAPage';
-import ProjectDPage from './ProjectAPage';
+import ProjectBPage from './ProjectBPage';
+import ProjectCPage from './ProjectCPage';
+import ProjectDPage from './ProjectDPage';
 
 class App extends Component {
   render() {

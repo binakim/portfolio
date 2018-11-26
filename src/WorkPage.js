@@ -19,7 +19,7 @@ export default () => {
       <div className='workPanelTitle'>I was here</div>
       <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
     </WorkPanel>
-    <WorkPanel target='/project-b'backgroundStyle='gd2' imagePath='assets/p2.png' right={ true }>
+    <WorkPanel target='/project-b' backgroundStyle='gd2' imagePath='assets/p2.png' right={ true }>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>Social Table</div>
       <div className='workPanelDescription'>Social table is an app that provides a social container for reducing food waste.</div>

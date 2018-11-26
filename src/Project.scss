@@ -1,5 +1,35 @@
 @import 'common.scss';
 
+.p1 {
+  @media (min-width: 1px) {
+    .fullWidthYShift {
+      transform: translate(0, 30%);
+    }
+  }
+
+  @media (min-width: 992px) {
+    .fullWidthYShift {
+      transform: translate(0, 30%);
+    }
+  }
+}
+
+.p3 {
+  @media (min-width: 1px) {
+    .fullWidthYShift {
+      transform: translate(0, 17%);
+    }
+  }
+
+  @media (min-width: 992px) {
+    .fullWidthYShift {
+      transform: translate(0, 17%);
+    }
+  }
+}
+
+
+
 .project {
   position: relative;
 
@@ -20,14 +50,20 @@
       font-weight: lighter;
     }
 
-    .fullWidthYShift {
-      transform: translate(0, 30%);
-    }
     .gd1 {
       padding-top: 74%;
 
       img {
         width: 90%;
+        transform: translate(0, 0);
+      }
+    }
+
+    .gd3 {
+      padding-top: 74%;
+
+      img {
+        width: 30%;
         transform: translate(0, 0);
       }
     }
@@ -89,6 +125,15 @@
     }
 
     .gd1 {
+      padding-top: 675px;
+
+      img {
+        width: 90%;
+        transform: translate(17%, 0);
+      }
+    }
+
+    .gd3 {
       padding-top: 675px;
 
       img {
@@ -189,7 +234,7 @@
   }
 
   .topPanelDescription {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
     @extend %section-margin;
   }
@@ -307,9 +352,13 @@
 .fullImage.gd1 img{
   max-width: 916px;
   min-width: 355px;
-  width: 80%;
   height: auto;
+}
 
+.fullImage.gd3 img{
+  max-width: 500px;
+  min-width: 122px;
+  height: auto;
 }
 
 .fullImage > img {

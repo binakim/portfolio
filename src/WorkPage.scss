@@ -102,7 +102,7 @@
 }
 
 .introduction {
-  font-size: 36px;
+  @extend %introFont;
   position: relative;
   margin: 0 15px;
 
@@ -144,7 +144,7 @@
   background-image: radial-gradient(circle at 65% 50%,rgba(0,0,0,0.49),rgb(0,0,0) 50%);
 
   img {
-    width: 35.37% !important;
+    width: 35.37%;
     transform: translate(0, -27%);
   }
 }
