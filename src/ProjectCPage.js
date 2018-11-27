@@ -70,7 +70,7 @@ export default () => {
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section textOnly'>RESEARCH</div>
+        <div className='section image'>RESEARCH</div>
         <div className='row inverse_sectionImage'>
           <div className='col-12 col-md-6'>
             <img className='sectionImage fitImage' src="assets/p3/p3_2.jpg" data-rjs="2"/>
@@ -104,14 +104,15 @@ export default () => {
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>TARGET</div>
-        <div className='content row persona_bottom_fix'>
-          <div className='persona_profile twoColLayout'>
-             <div className='circle_bg'>
+        <div className='section image'>TARGET</div>
+        <div className='content row'>
+          <div className='twoColLayout'>
+             <div className='black-yellow-circle d-none d-md-block'>
                <div>DIRECT</div>
              </div>
+             <div className='font-weight-bold content-heading-margin d-md-none'>DIRECT</div>
           </div>
-          <div className='persona_content twoColLayout'>
+          <div className='twoColLayout'>
             <div className=''>The company wants a more secure alternative by requiring the user to validate their identity with valid 
 credentials that are compared with a selfie in real-time.<br/>
 -Finance services  ( ex. Bank, Credit card, Stock)<br/>
@@ -119,129 +120,103 @@ credentials that are compared with a selfie in real-time.<br/>
 -Goverment sites</div>
           </div>
         </div>
-      </div>
-      <div className='sectionPanel col-12'>
-        <div className='section'>RESEARCH</div>
-        <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_10.jpg' data-rjs="2"/>
+        <div className='content row'>
+          <div className='twoColLayout'>
+             <div className='yellow-black-circle d-none d-md-block'>
+               <div>INDIRECT</div>
+             </div>
+             <div className='font-weight-bold content-heading-margin d-md-none'>INDIRECT</div>
+          </div>
+          <div className='twoColLayout'>
+          <div className=''>Anyone who use the site requiring ID check.<br/>
+The place where  ID check is needed.</div>
+          </div>
         </div>
       </div>
-      <div className='sectionPanel col-12 hide_mobile'>
-        <div className='section'>PERSONAS</div>
-        <div className='content row persona_bottom_fix'>
-          <div className='persona_profile twoColLayout'>
-             <img src='assets/p-a/p1_11.png' data-rjs="2"/>
-             <div className='persona_name'>Jessica Jade</div>
+      <div className='sectionPanel col-12'>
+        <div className='section image'>PERSONA</div>
+        <div className='content row'>
+          <div className='persona_profile twoColLayout mb-0'>
+             <img src='assets/p3/p3_5.png' data-rjs="2"/>
+             <div className='persona_name'>Anderson  Jack</div>
              <div className='persona_bio'>
-               <div>Graphic Designer</div>
-               <div>Oakland, CA</div>
-               <div>31 years old</div>
-               <div>Single</div>
-               <div>Income: 90K</div>
+               <div>Age: 42 </div>
+               <div>Job : E-Cigarettes start up CTO</div>
              </div>
           </div>
-          <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I've been working for as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>Due to my travel style, I usually spend money a lot of travel. I need to manage my trip budget. 
-Also, I usually make a trip journal after the trip, because I want to remember that moment.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
-            </div>
-          </div>
-          <div className='persona_profile twoColLayout'>
-             <img src='assets/p-a/p1_11_2.png' data-rjs="2"/>
-             <div className='persona_name'>Celine Ryu</div>
-             <div className='persona_bio'>
-               <div>Digital Marketer</div>
-               <div>Seoul, South Korea</div>
-               <div>36 years old</div>
-               <div>Married</div>
-               <div>Income: 80K</div>
+          <div className='persona_description twoColLayout mb-0'>
+             <div className='persona_text'>
+    I’m the CTO of E-Cigarettes company. 
+Recently, our company grows up so fast. On  
+the other  hand, we are having some 
+problems, which is the increase in teenage 
+our product use.  Eighty percent of our 
+products are sold online. Therefore, we 
+prohibit teenagers from buying our products 
+by checking credit card. Nevertheless, teens 
+still buy and use our product, so we need the 
+more accurate system. We are looking for 
+the system which is secure and seamless.
              </div>
           </div>
-          <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I've been working for as a Digital Marketer for 7 years. I goes on a short trip twice a month and a long trip once a year. I mostly use my credit card when I go to trip, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember that moment.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
-            </div>
+        </div>
+      </div>
+      <div className='sectionPanel col-12'>
+        <div className='section image'>SOLUTION</div>
+        <div className='content row'>
+          <div className='col-12 col-lg-6 pr-lg-5'>
+            <div className='content2 text-center'>Offline Store</div>
+            <div className='content font-weight-bold text-center'>Face to Face ID Check</div>
+            <img className='fitImage' src='assets/p3/p3_6_m0.jpg' data-rjs="2"/>
           </div>
-          <div className='persona_profile twoColLayout'>
-             <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
-             <div className='persona_name'>Ryno D. Lee</div>
-             <div className='persona_bio'>
-               <div>English Teacher</div>
-               <div>Oakland, CA</div>
-               <div>28 years old</div>
-               <div>Single</div>
-               <div>Income: 60K</div>
-             </div>
+          <div className='solutionConnector'>
+            <img src='assets/p3/p3_6_m1.png' data-rjs="2"/>
           </div>
-          <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I’m an English teacher and musician. I go on a long trip three times a year to meet my girlfriend. I love to go to Europe and I use credit card and cash both.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>I want to save money on foreign exchange because I travel a lot in Europe.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>I mostly use credit card during a trip, but many Europe stores didn’t accept credit card.</div>
-            </div>
+          <div className='col-12 col-lg-6 pl-lg-5'>
+            <div className='content2 text-center'>Online Store</div>
+            <div className='content font-weight-bold text-center'></div>
+            <img className='fitImage' src='assets/p3/p3_6_m2.png' data-rjs="2"/>
           </div>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>STORY BOARD</div>
-        <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_12.png' data-rjs="2"/>
+        <div className='section image'>USER FLOW</div>
+        <img className='fitImage' src='assets/p3/p3_7.png' data-rjs="2"/>
+      </div>
+      <div className='sectionPanel col-12'>
+        <div className='fullImage grayBackground'>
+          <img className='' src="assets/p3/p3_8.jpg" data-rjs="2"/>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>SIMULATION TEST</div>
-        <div className='sim_content'>
-          <div className='subtitle'>Route Test</div>
-          <div className='sim_description'>Drawing the route based on the card payment</div>
-          <img className='fitImage' src='assets/p-a/p1_13.jpg' data-rjs="2"/>
-        </div>
-        <div className='sim_content'>
-          <div className='subtitle'>Photo location & Payment location matching test</div>
-          <div className='sim_description'>Matching the payment location with photo location on the map</div>
-          <img className='fitImage' src='assets/p-a/p1_13_2.jpg' data-rjs="2"/>
+        <div className='section image'>proof of concept</div>
+        <div className='font-weight-bold content'>Face Verification</div>
+        <img className='sectionImage fitImage' src='assets/p3/p3_9.png' data-rjs="2"/>
+        <div className='font-weight-bold content'>ID Scan</div>
+        <img className='sectionImage fitImage' src='assets/p3/p3_9_2.png' data-rjs="2"/>
+        <div className='font-weight-bold content'>Verified</div>
+        <img className='sectionImage fitImage mb-0' src='assets/p3/p3_9_3.png' data-rjs="2"/>
+      </div>
+      <div className='sectionPanel col-12'>
+        <div className='section image'>prototype</div>
+        <div className='text-center'>
+          <video className="video" controls>
+            <source src="assets/p3/showmeid_BinaKim_1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>TASK FLOW</div>
-        <div className='content'>
-          <div>Sign up / Card reigster</div>
-          <img className='fitImage' src='assets/p-a/p1_14.png' data-rjs="2"/>
-        </div>
-        <div className='content'>
-          <div>Journey record</div>
-          <img className='fitImage' src='assets/p-a/p1_14_2.png' data-rjs="2"/>
-        </div>
-        <div className='content'>
-          <div>Budget management</div>
-          <img className='fitImage' src='assets/p-a/p1_14_3.png' data-rjs="2"/>
+        <div className='section image'>concept video</div>
+        <div className='text-center'>
+          <video className="video" controls>
+            <source src="assets/p3/showmeid_BinaKim_1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <div className='sectionPanel col-12'>
-        <div className='section'>WIREFRAMES</div>
-        <div className='content'>
-          <img className='fitImage' src='assets/p-a/p1_15.png' data-rjs="2"/>
-          <img className='fitImage' src='assets/p-a/p1_15_2.png' data-rjs="2"/>
-          <img className='fitImage' src='assets/p-a/p1_15_3.png' data-rjs="2"/>
-        </div>
-      </div>
-      <div className='sectionPanel col-12'>
-        <div className='section'>USER TEST</div>
+        <div className='section image'>USER TEST</div>
         <div className='content'>
           <img className='fitImage' src='assets/p-a/p1_16.png' data-rjs="2"/>
         </div>
@@ -268,18 +243,19 @@ Also, I usually make a trip journal after the trip, because I want to remember t
     </div>
     <ProjectNav 
       prev={{
+        href: '/project-b',
+        className: 'gd2',
+        imgUrl: 'assets/p2.png',
+        category: 'UI / UX Design',
+        title: 'Social Table'
+      }}
+      next={{
         href: '/project-d',
         className: 'gd4',
         imgUrl: 'assets/p4.png',
         category: 'UI / UX Design',
         title: 'Channel Hyundai Card'
       }}
-      next={{
-        href: '/project-b',
-        className: 'gd2',
-        imgUrl: 'assets/p2.png',
-        category: 'UI / UX Design',
-        title: 'Social Table'
-      }}/>
+    />
   </div>
 }

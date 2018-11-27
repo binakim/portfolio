@@ -43,6 +43,11 @@
   .problemImage {
     margin-top: -88px;
   }
+
+  .conclusion{
+    background-color: $purple-color;
+    margin-top: -100px;
+  }
 }
 
 .p3 {
@@ -58,6 +63,14 @@
         width: 29.5%;
         transform: translate(0, 0);
       }
+    }
+
+    .solutionConnector {
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      margin-left: 11px;
+      padding: 15px;
     }
   }
 
@@ -94,6 +107,13 @@
         transform: translate(66%, 0);
       }
     }
+
+    .solutionConnector {
+      position: absolute;
+      left: 50%;
+      transform: rotate(270deg);
+      align-self: center;
+    }
   }
 
   .section::after {
@@ -113,6 +133,21 @@
   .p3_3_2 {
     max-width: 484px;
   }
+
+  .black-yellow-circle {
+    @extend .circle_bg;
+    background-color: $black-color;
+    color: $yellow-color;
+  }
+  .yellow-black-circle {
+    @extend .circle_bg;
+    background-color: $yellow-color;
+    color: $black-color;
+  }
+
+  .conclusion{
+    background-color: $yellow-color;
+  }
 }
 
 .project {
@@ -129,6 +164,14 @@
     .topPanelDescription {
       font-size: 15px;
       font-weight: lighter;
+    }
+ 
+    .persona_profile {
+      text-align: left;
+
+      & > img {
+        max-width: 40%;
+      }
     }
 
     .gd1 {
@@ -177,6 +220,23 @@
       padding: 35px 0;
     }
 
+    .video {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px ) {
+    .persona_profile {
+      text-align: center;
+
+      & > img {
+        max-width: 100%;
+      }
+    }
+
+    .video {
+      min-width:768px;
+      width: 80%;
+    }
   }
 
   @media (min-width: 992px ) {
@@ -275,7 +335,6 @@
     }
 
     .conclusion {
-      margin-top: -100px;
       margin-bottom: 100px;
       padding: 100px 0;
     }
@@ -300,11 +359,17 @@
 
   .section {
     @extend %title2-margin;
+    @extend .text-uppercase;
+
     margin-top: 5px;
   }
 
   .section.textOnly {
     @extend %title-margin;
+  }
+
+  .section.image {
+    @extend %section3-margin;
   }
 
   .sectionImage {
@@ -318,7 +383,13 @@
   .content {
     @extend h4;
     @extend %title-margin;
+    line-height: 1.5;
+  }
 
+  .content2 {
+    @extend h4;
+    @extend %content-margin;
+    line-height: 1.5;
   }
 
   .section::after {
@@ -349,7 +420,6 @@
   }
 
   .conclusion {
-    background-color: $purple-color;
     color: white;
 
     .content {
@@ -412,6 +482,7 @@
 }
 
 .fullImage > img {
+  width: 100%;
   height: auto;
 }
 
@@ -456,11 +527,11 @@
   @extend %title2-margin;
 
   font-size: 14px;
-  text-align: center;
 
   > img {
     width: 100%;
     margin-bottom: 30px;
+    height: auto;
   }
 
   .persona_name {
