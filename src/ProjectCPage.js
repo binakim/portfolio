@@ -210,7 +210,7 @@ the system which is secure and seamless.
         <div className='section image'>concept video</div>
         <div className='text-center'>
           <video className="video" controls>
-            <source src="assets/p3/showmeid_BinaKim_1.mp4" type="video/mp4" />
+            <source src="assets/p3/Mod8.1_BinaKim_1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
