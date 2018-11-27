@@ -113,28 +113,6 @@
   .p3_3_2 {
     max-width: 484px;
   }
-
-  .p3_target_circle {
-    position: relative;
-    width: 100%;
-
-    &>* {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-
-    &:before {
-	      content: "";
-	      display: block;
-	      padding-top: 100%; 	/* initial ratio of 1:1*/
-    }
-  }
 }
 
 .project {

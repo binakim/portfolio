@@ -107,7 +107,7 @@ export default () => {
         <div className='section'>TARGET</div>
         <div className='content row persona_bottom_fix'>
           <div className='persona_profile twoColLayout'>
-             <div className='p3_target_circle'>
+             <div className='circle_bg'>
                <div>DIRECT</div>
              </div>
           </div>
