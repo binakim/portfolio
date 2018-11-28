@@ -191,6 +191,110 @@ Sometimes they exchange their remaining ingredients.</div>
         </div>
       </div>
     </div>
+
+{/*ideation*/}
+
+
+    <div className='sectionPanel col-12'>
+      <div className='section image'>IDEATION</div>
+      <div className='subtitle content'>Brainstoming with crazy 8's </div>
+      <img className='fitImage sectionImage' src='assets/p2/p2_12.png' data-rjs="2"/>
+
+      <div className='col-12'>
+      <div className='subtitle content'>Results</div>  
+      <div className='subtitle content'>Donation Box</div>  
+      <div className='content'>
+      Deliver the donation box to user who requested the donation on the app. Put the food ingredient in the box, and sent the box to the company by free.
+      </div>
+      <div className='subtitle content'>Cooking event</div>
+       <div className='content'>
+      Having cooking event with neighbors. Give some notification about event. User bring their left over foods or ingredients and volunteers teach how to cook.  
+      </div>
+      <div className='subtitle content'>Pick up request</div>
+      <div className='content'>
+      Many left over food you have after party? User can request to pick up foods for donation.
+      </div>
+      </div>
+    </div>
+
+
+{/*survey*/}
+
+    <div className='sectionPanel col-12'>
+      <div className='section textOnly'>SURVEY</div>
+      <div className='row'>
+        <div className='col-12 col-md-6'>
+          <div className='subtitle entry content'>Survey date</div>
+          <div className='content'>
+          20-21, Oct., 2018 </div>
+          <div className='subtitle entry content'>Number of Participants</div>
+          <div className='content'>
+          21 (Female 85% / Male 15%) </div>
+          <div className='subtitle entry content'>Status</div>
+          <div className='content'>
+          Single  80%, Couple 20% </div>
+          <div className='subtitle entry content'>Google Form Link</div>
+          <div className='content'>
+           https://goo.gl/forms/igZIQZ6Va9hy0CLA2</div>
+        </div>  
+        <div className='col-12 col-md-6'>
+           <div className='subtitle entry content'>Findings</div>
+          <div className='content'>
+            More than 50% of participants make food waste because <br/>
+            “Busy, or they for got the expiration date” 
+          </div>
+          <div className='content'>
+            47% of participants had experience of donation food.
+          </div>
+          <div className='content'>
+            More than 50% of participants like share foods with friends. 
+          </div>
+          <div className='content'>
+            72% of participants Won’t use the app because <br/>
+            “I can’t believe other people.”
+          </div>
+          </div>
+           <div className='col-12'>
+           <img className='fitImage sectionImage' src='assets/p2/p2_8.jpg' data-rjs="2"/>
+        </div>
+        </div>
+      </div>
+
+{/*idea sketch*/}
+    <div className='sectionPanel col-12'>
+        <div className='section image'>Sketch</div>
+        <img className='fitImage' src='assets/p2/p2_13.png' data-rjs="2"/>
+    </div>
+
+
+{/*IA*/}
+    <div className='sectionPanel col-12'>
+        <div className='section image'>INFORMATION ARCHITECTURE</div>
+        <img className='fitImage' src='assets/p2/p2_14.jpg' data-rjs="2"/>
+    </div>
+
+
+{/*task flow*/}
+
+      <div className='sectionPanel col-12'>
+          <div className='section image'>TASK FLOW</div>
+          <div className='subtitle content'>Share the ingredients</div>
+           <div className='sectionImage'>
+           <img className='fitImage' src='assets/p2/p2_9.jpg' data-rjs="2"/>
+           </div>
+           <div className='subtitle content'>Get the ingredients</div>
+           <div className='sectionImage'>
+           <img className='fitImage' src='assets/p2/p2_10.jpg' data-rjs="2"/>
+           </div>
+           <div className='subtitle content'>Apply the volunteer</div>
+           <div className='sectionImage'>
+           <img className='fitImage' src='assets/p2/p2_11.jpg' data-rjs="2"/>
+           </div>
+      </div>
+
+
+{/*user testing*/}
+
     <div className='sectionPanel col-12'>
       <div className='section image'>USER TESTING</div>
       <div className='subtitle content'>Test Flow</div>
@@ -227,11 +331,46 @@ Sometimes they exchange their remaining ingredients.</div>
           Check the product page. Is it enough information for choosing the product? <br/>
           Request the product to seller. What information do you more want for the request? 
           </div>
-          <img className='fitImage' src='assets/p2/p2_7.jpg' data-rjs="2"/>
+          <img className='fitImage sectionImage' src='assets/p2/p2_7.jpg' data-rjs="2"/>
+        </div>
+        <div className='col-12'>
+          <div className='font-weight-bold content'>Result</div>
+          <div className='subtitle entry content'>Improve </div>
+          <div className='content'>
+            Provide reliable contents ( product/ profile)<br/>
+            Exact request system ( date,time set )
+          </div>
+          <div className='subtitle entry content'>New discoveries </div>
+          <div className='content'>
+            Product location is important for the user.<br/>
+            User can donation, but they won’t get the products.
+          </div>
+          <div className='subtitle entry content'>Similar behaviors</div>
+          <div className='content'>
+            The user  wants to get the packaged products. 
+          </div>
         </div>
       </div>
     </div>
 
+
+{/*wireframe*/}
+    <div className='sectionPanel col-12'>
+        <div className='section image'>WIREFRAME</div>
+        <img className='fitImage' src='assets/p2/p2_15.jpg' data-rjs="2"/>
+    </div>
+
+{/*final*/}
+    <div className='sectionPanel col-12'>
+        <div className='section image'>FINAL DESIGN</div>
+        <img className='fitImage' src='assets/p2/p2_16.jpg' data-rjs="2"/>
+    </div>
+
+
+
+
+    {/*
+ 
     <div className='sectionPanel col-12'>
       <div className='section image'>RESEARCH</div>
       <div className='row inverse_sectionImage'>
@@ -243,7 +382,7 @@ Sometimes they exchange their remaining ingredients.</div>
         </div>
       </div>
     </div>
-    {/*
+   
     <div className='sectionPanel col-12'>
       <div className='section textOnly'>PROBLEMS</div>
       <div className='title content'>
