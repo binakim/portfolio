@@ -27,14 +27,6 @@
     align-items: center;
     margin: 55px 0;
   }
-  
-  .section {
-    @extend h2;
-  }
-
-  .sectionSubtitle {
-    @extend h3;
-  }
 }
 
 
@@ -60,13 +52,6 @@
     }
   }
 
-  .section {
-    @extend h2;
-  }
-
-  .sectionSubtitle {
-    @extend h3;
-  }
 }
 
 .aboutPage {
