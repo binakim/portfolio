@@ -135,7 +135,7 @@
   margin-bottom: 31px;
 
   .title {
-    @extend h4;
+    @extend h5;
 
     .company {
       font-weight: bold;
@@ -144,13 +144,13 @@
     }
   }
   .period {
-    @extend h5;
+    @extend h6;
 
     font-style: italic;
     margin-bottom: 10px;
   }
   .description {
-    @extend h5;
+    @extend h6;
     line-height: 140%;
   }
 }

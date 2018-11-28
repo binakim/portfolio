@@ -381,13 +381,13 @@
   }
 
   .content {
-    @extend h4;
+    @extend h5;
     @extend %title-margin;
     line-height: 1.5;
   }
 
   .content2 {
-    @extend h4;
+    @extend h5;
     @extend %content-margin;
     line-height: 1.5;
   }
@@ -414,7 +414,7 @@
       }
     }
     .description {
-      @extend h4;
+      @extend h5;
       @extend %content-margin;
     }
   }
@@ -436,7 +436,7 @@
     padding: 0 15px;
     text-align: right;
 
-    @extend h6;
+    font-size: 12px;
   }
 }
 
@@ -463,7 +463,7 @@
 }
 
 .insight_title {
-  @extend h3;
+  @extend h4;
   @extend %content-heading-margin;
   font-weight: bold;
 }
@@ -563,10 +563,10 @@
 
 .sim_content {
   @extend %title2-margin;
-  @extend h4;
+  @extend h5;
 
   .subtitle {
-    @extend h3;
+    @extend h4;
   }
 }
 
@@ -595,7 +595,7 @@
 
   .link {
     @extend %title-margin;
-    @extend h4;
+    @extend h5;
     font-weight: bold;
   }
 
