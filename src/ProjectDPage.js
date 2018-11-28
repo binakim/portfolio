@@ -7,15 +7,15 @@ import './WorkPage.scss';
 import './Project.scss';
 
 export default () => {
-  return <div className='project p2'>
+  return <div className='project p4'>
     <div className='col-12'>
-      <div className='fullWidthBoundHeightPanel gd3'>
+      <div className='fullWidthBoundHeightPanel gd4'>
         <div className='fullWidthYShift'>
-          <img src='assets/p2.png' data-rjs="2"/>
+          <img src='assets/p4.png' data-rjs="2"/>
         </div>
       </div>
     </div>
-    <div className='col-12 col-lg-4 projectTitle'>
+    <div className='col-12 col-lg-5 projectTitle'>
       <div className='topPanelCategory'>Product Design</div>
       <div className='topPanelTitle'>Channel Hyundai Card</div>
       <div className='topPanelDescription'>The responsive video streaming website for branding and marketing of credit card companies.</div>
