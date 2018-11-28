@@ -135,8 +135,8 @@ The place where  ID check is needed.</div>
       </div>
       <div className='sectionPanel col-12'>
         <div className='section image'>PERSONA</div>
-        <div className='content row'>
-          <div className='persona_profile twoColLayout mb-0'>
+        <div className='content row persona_bottom_fix'>
+          <div className='persona_profile twoColLayout'>
              <img src='assets/p3/p3_5.png' data-rjs="2"/>
              <div className='persona_name'>Anderson  Jack</div>
              <div className='persona_bio'>
@@ -144,7 +144,7 @@ The place where  ID check is needed.</div>
                <div>Job : E-Cigarettes start up CTO</div>
              </div>
           </div>
-          <div className='persona_description twoColLayout mb-0'>
+          <div className='persona_description twoColLayout'>
              <div className='persona_text'>
     I’m the CTO of E-Cigarettes company. 
 Recently, our company grows up so fast. On  

@@ -232,16 +232,14 @@ export default () => {
              </div>
           </div>
           <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I've been working for as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>Due to my travel style, I usually spend money a lot of travel. I need to manage my trip budget. 
+            <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
+            <div className='persona_env'>Environment</div>
+            <div className='persona_text'>I've been working for as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
+            <div className='persona_env'>Goal</div>
+            <div className='persona_text'>Due to my travel style, I usually spend money a lot of travel. I need to manage my trip budget. 
 Also, I usually make a trip journal after the trip, because I want to remember that moment.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
-            </div>
+            <div className='persona_env'>Challenges</div>
+            <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
           </div>
           <div className='persona_profile twoColLayout'>
              <img src='assets/p-a/p1_11_2.png' data-rjs="2"/>
@@ -255,37 +253,33 @@ Also, I usually make a trip journal after the trip, because I want to remember t
              </div>
           </div>
           <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I've been working for as a Digital Marketer for 7 years. I goes on a short trip twice a month and a long trip once a year. I mostly use my credit card when I go to trip, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember that moment.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
-            </div>
+            <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
+            <div className='persona_env'>Environment</div>
+            <div className='persona_text'>I've been working for as a Digital Marketer for 7 years. I goes on a short trip twice a month and a long trip once a year. I mostly use my credit card when I go to trip, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
+            <div className='persona_env'>Goal</div>
+            <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember that moment.</div>
+            <div className='persona_env'>Challenges</div>
+            <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
           </div>
           <div className='persona_profile twoColLayout'>
-             <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
-             <div className='persona_name'>Ryno D. Lee</div>
-             <div className='persona_bio'>
-               <div>English Teacher</div>
-               <div>Oakland, CA</div>
-               <div>28 years old</div>
-               <div>Single</div>
-               <div>Income: 60K</div>
-             </div>
+            <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
+            <div className='persona_name'>Ryno D. Lee</div>
+            <div className='persona_bio'>
+              <div>English Teacher</div>
+              <div>Oakland, CA</div>
+              <div>28 years old</div>
+              <div>Single</div>
+              <div>Income: 60K</div>
+            </div>
           </div>
           <div className='persona_content twoColLayout'>
-            <div>
-              <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
-              <div className='persona_env'>Environment</div>
-              <div className='persona_text'>I’m an English teacher and musician. I go on a long trip three times a year to meet my girlfriend. I love to go to Europe and I use credit card and cash both.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>I want to save money on foreign exchange because I travel a lot in Europe.</div>
-              <div className='persona_env'>Challenges</div>
-              <div className='persona_text'>I mostly use credit card during a trip, but many Europe stores didn’t accept credit card.</div>
-            </div>
+            <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
+            <div className='persona_env'>Environment</div>
+            <div className='persona_text'>I’m an English teacher and musician. I go on a long trip three times a year to meet my girlfriend. I love to go to Europe and I use credit card and cash both.</div>
+            <div className='persona_env'>Goal</div>
+            <div className='persona_text'>I want to save money on foreign exchange because I travel a lot in Europe.</div>
+            <div className='persona_env'>Challenges</div>
+            <div className='persona_text'>I mostly use credit card during a trip, but many Europe stores didn’t accept credit card.</div>
           </div>
         </div>
       </div>

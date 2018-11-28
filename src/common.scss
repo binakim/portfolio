@@ -311,4 +311,5 @@ a:hover::after {
 
 .sectionSubtitle {
   @extend h3;
+  @extend %title-margin;
 }
