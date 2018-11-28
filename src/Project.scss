@@ -60,7 +60,7 @@
       padding-top: 74%;
 
       img {
-        width: 29.5%;
+        width: 75%;
         transform: translate(0, 0);
       }
     }
@@ -74,7 +74,9 @@
       position: absolute;
       top: 192px;
       color: white;
-      padding-right: 0;
+      padding-left: 0;
+      text-align: right;
+      right: 0;
 
       .topPanelCategory {
         font-size: 25px;
@@ -95,8 +97,8 @@
       padding-top: 675px;
 
       img {
-        width: 29.5%;
-        transform: translate(66%, 0);
+        width: 75%;
+        transform: translate(-17%, 0);
       }
     }
   }
@@ -106,8 +108,8 @@
   }
 
   .fullImage.gd2 img{
-    max-width: 500px;
-    min-width: 122px;
+    max-width: 800px;
+    min-width: 300px;
     height: auto;
   }
 
