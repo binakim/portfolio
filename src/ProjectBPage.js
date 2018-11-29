@@ -9,16 +9,16 @@ import './Project.scss';
 export default () => {
   return <div className='project p2'>
     <div className='col-12'>
-      <div className='fullWidthBoundHeightPanel gd3'>
+      <div className='fullWidthBoundHeightPanel gd2'>
         <div className='fullWidthYShift'>
           <img src='assets/p2.png' data-rjs="2"/>
         </div>
       </div>
     </div>
-    <div className='col-12 col-lg-4 projectTitle'>
+    <div className='col-12 col-lg-5 projectTitle'>
       <div className='topPanelCategory'>UI / UX Design</div>
-      <div className='topPanelTitle'>Show me ID</div>
-      <div className='topPanelDescription'>Show me id is an app that ID verification for the web, or products.</div>
+      <div className='topPanelTitle'>Social Table</div>
+      <div className='topPanelDescription'>Social table is an app that provides a social container for reducing food waste.</div>
     </div>
 
 
