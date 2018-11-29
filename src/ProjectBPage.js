@@ -381,18 +381,18 @@ Sometimes they exchange their remaining ingredients.</div>
 
     <ProjectNav 
       prev={{
-        href: '/project-b',
-        className: 'gd2',
-        imgUrl: 'assets/p2.png',
+        href: '/project-a',
+        className: 'gd1',
+        imgUrl: 'assets/p1.png',
         category: 'UI / UX Design',
-        title: 'Social Table'
+        title: 'I was here'
       }}
       next={{
-        href: '/project-d',
-        className: 'gd4',
+        href: '/project-c',
+        className: 'gd3',
         imgUrl: 'assets/p4.png',
         category: 'UI / UX Design',
-        title: 'Channel Hyundai Card'
+        title: 'Show me ID'
       }}
     />
   </div>

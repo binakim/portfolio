@@ -171,14 +171,14 @@ export default () => {
 
     <ProjectNav 
       prev={{
-        href: '/project-b',
+        href: '/project-c',
         className: 'gd3',
         imgUrl: 'assets/p3.png',
         category: 'UI / UX Design',
         title: 'Show me ID'
       }}
       next={{
-        href: '/project-d',
+        href: '/project-a',
         className: 'gd1',
         imgUrl: 'assets/p1.png',
         category: 'UI / UX Design',

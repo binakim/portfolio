@@ -9,6 +9,7 @@ $purple-color: rgb(75,68,141);
 $yellow-color: rgb(255,201,5);
 $green-color: rgb(76,120,114);
 $blue-color: rgb(42,56,160);
+$light-gray-color: rgb(235,235,235);
 
 
 %page-margin {
@@ -104,12 +105,16 @@ $blue-color: rgb(42,56,160);
     margin-bottom: 15px;
   }
   @media (min-width: 768px) {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 }
 
 .grayBackground {
   background: $gray-color;
+}
+
+.lightGrayBackground {
+  background: $light-gray-color;
 }
 
 .hide_mobile {
