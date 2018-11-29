@@ -35,6 +35,11 @@ export default () => {
         <img className='fitImage' src='assets/p2/p2_1.jpg' data-rjs="2"/>
     </div>
 
+    <div className='sectionPanel col-12'>
+      <div className='fullImage grayBackground'>
+        <img className='' src="assets/p2/p2_17.jpg" data-rjs="2"/>
+      </div>
+    </div>
 
     <div className='sectionPanel col-12'>
       <div className='section image'>COMPETITORS</div>

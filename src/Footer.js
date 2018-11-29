@@ -15,10 +15,10 @@ export default () => {
           <div className='order-1 order-md-2 col-12 col-md-6'>
             <ul className="nav">
               <li className="col-3 col-md-4">
-                <a className="nav-link" href="https://linkedin.com/">LinkedIn</a>
+                <a className="nav-link" href="http://www.linkedin.com/in/hyunbinkim1009">LinkedIn</a>
               </li>
               <li className="col-3 col-md-4">
-                <a className="nav-link" href="https://medium.com/">Medium</a>
+                <a className="nav-link" href="https://medium.com/@binakim">Medium</a>
               </li>
               <li className="col-3 col-md-4">
                 <a className="nav-link" href="mailto://bina@binakim.me">Email</a>
