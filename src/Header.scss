@@ -1,15 +1,28 @@
 @import 'common.scss';
 
-@media (min-width: 992px) {
-  .header .nav-item {
-    width: 68px;
-    text-align: left;
-    margin-left: 30px;
-  }
-}
-
 .header {
+  height: 80px;
   padding: 20px 15px;
+
+  @media (min-width: 1px) {
+    & .navbar-brand > img {
+      width: 24px;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    & .navbar-brand > img {
+      width: 30px;
+      height: auto;
+    }
+
+    & .nav-item {
+      width: 68px;
+      text-align: left;
+      margin-left: 30px;
+    }
+  }
 }
 
 .header .nav-item a {
@@ -37,13 +50,16 @@
 }
 
 .hamMenu {
+  display: block;
+  margin-bottom: 0;
+
   .menu {
     position: absolute;
-    right: -100px;
-    top: -100px;
+    right: 16px;
+    top: 18px;
     z-index: 100;
-    width: 200px;
-    height: 200px;
+    width: 48px;
+    height: 48px;
     background: $primary-color;;
     border-radius: 50% 50% 50% 50%;
     transition: .5s ease-in-out;
@@ -52,9 +68,9 @@
   }
   .hamburger {
     position: absolute;
-    top: 135px;
-    left: 50px;
-    width: 30px;
+    top: 23px;
+    left: 14px;
+    width: 20px;
     height: 2px;
     background: white;
     display: block;
@@ -71,10 +87,10 @@
       background: white;
     }
     &:before {
-      top: -10px;
+      top: -8px;
     }
     &:after {
-      bottom: -10px;
+      bottom: -8px;
     }
   }
   input {
