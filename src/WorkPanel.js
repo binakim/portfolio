@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export default (props) => {
   const alignment = props.right ? 'right' : '';
+  const last = props.right ? 'last' : '';
 
-  return <div className={['workPanel', alignment].join(' ')}>
+  return <div className={['workPanel', alignment, last].join(' ')}>
     <div className='order-2 order-md-1 col-10 col-md-5'>
       <div className='workDescription'>
         {props.children}

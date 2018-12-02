@@ -29,13 +29,10 @@ export default () => {
       <div className='workPanelTitle'>Show me ID</div>
       <div className='workPanelDescription'>Show me ID is an app that provides ID verification forthe web and products</div>
     </WorkPanel>
-    <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png' right={ true }>
+    <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png' right={ true } last={ true}>
       <div className='workPanelCategory'>UX Design</div>
       <div className='workPanelTitle'>Channel Hyundai Card</div>
       <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>
     </WorkPanel>
-    <div className='backToTop'>
-      <Link to='#'>Back to top</Link>
-    </div>
   </div>
 }
