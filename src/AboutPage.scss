@@ -46,18 +46,12 @@
 }
 
 .profilePhoto {
-  margin-bottom: 55px;
+  @extend %section3-margin;
 
   img {
     width: 100%;
     height: auto;
   }
-}
-
-.statement{
-  @extend %statementText;
-  max-width: 570px;
-  width: 90%;
 }
 
 .resumeButton {
@@ -95,28 +89,30 @@
   text-align: left;
   flex-wrap: wrap;
   width: 100%;
+
+  .section {
+    @extend h3;
+    @extend %title-margin;
+    margin-top: 10px;
+  }
 }
 
-.section {
-  display: inline-block;
-  font-weight: bold;
-  position: relative;
-  margin-bottom: 28px;
-  margin-top: 28px;
-}
-
-.section::after {
-  @extend .highlight-drop;
-  height: 10%;
-  top: -10px;
+.sectionCol {
+  @media (min-width: 1px) {
+    margin-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
 }
 
 .exp{
+  @extend %title-margin;
   max-width: 460px;
-  margin-bottom: 31px;
 
   .title {
     @extend h5;
+    @extend %content-margin;
 
     .company {
       font-weight: bold;
@@ -126,23 +122,22 @@
   }
   .period {
     @extend h6;
+    @extend %content-margin;
 
     font-style: italic;
-    margin-bottom: 10px;
   }
   .description {
     @extend h6;
+    @extend %content-margin;
     line-height: 140%;
   }
 }
 
-
-
 .statementSection {
+  @extend %section3-margin;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 55px;
 
   @media (min-width: 1px) {
     align-items: center;
@@ -164,17 +159,14 @@
   }
 }
 
-  
 .statement{
   @extend %statementText;
   max-width: 570px;
   width: 90%;
-  margin-top: 0px;
 
   @media (min-width: 1px) {
-    font-size: 20px;
     text-align: center;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
   }
 
   @media (min-width: 768px) {

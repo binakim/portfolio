@@ -177,7 +177,7 @@ $light-gray-color: rgb(235,235,235);
 
     }
     h3 {
-      font-size: 32px;
+      font-size: 30px;
       font-weight: bold;
     }
     h4 {
@@ -314,6 +314,17 @@ a:hover::after {
 
 .section {
   @extend h2;
+  @extend %title-margin;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  margin-top: 10px;
+}
+
+.section::after {
+  @extend .highlight-drop;
+  height: 10%;
+  top: -10px;
 }
 
 .sectionSubtitle {
