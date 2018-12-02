@@ -61,10 +61,6 @@
       margin: 50px;
     }
     
-    .resumeButton {
-      text-align: left;
-    }
-
     .btn {
     line-height: 0;
     margin-bottom: 0;
@@ -108,8 +104,6 @@
 }
 
 .resumeButton {
-  text-align: center;
-
   .btn {
     line-height: 0;
     margin-bottom: 0;
@@ -118,7 +112,19 @@
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    padding: 23px;
+    text-align: center;
+
+    @media (min-width: 1px) {
+      width: 150px;
+      padding: 21px;
+    }
+
+    @media (min-width: 768px) {
+      padding: 23px;
+      margin-left: 50px;
+      width: 160px;
+      font-size: 20px;
+    }
   }
 }
 
