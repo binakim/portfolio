@@ -17,7 +17,7 @@ export default () => {
         </div>
         <div className='resumeButton'>
           <a href="https://drive.google.com/file/d/1bfHYzu_jfNnr5gxd27e3AAs5GlWe-OMV/view" target="new">
-          <button type='button' class='btn'>RESUME &gt;</button>
+          <button type='button' className='btn'>RESUME &gt;</button>
           </a>
         </div>
       </div>
