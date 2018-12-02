@@ -346,6 +346,7 @@ a:hover::after {
   & > i {
     pointer-events: all;
     border-radius: 100%;
+    color: white;
     font-size: 40px;
     background-color: $primary-color;
     cursor: pointer;
