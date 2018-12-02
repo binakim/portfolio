@@ -10,7 +10,7 @@ export default () => {
       </div>
       <div className='statementSection col-12 col-md-6'>
         <div className='statement'>
-          <img className='quote-l' src='assets/Quotation1.png' data-rjs='2'/>I'm not just a <span className='highlight'>problem-solving</span> designer. I can <span className='highlight'>creating</span> something that <span className='highlight'>inspires people</span> with new <span className='highlight'>experiences</span>.<img src='assets/Quotation2.png' className='quote-r' data-rjs='2'/>
+          <img className='quote-l' src='assets/Quotation1.png' data-rjs='2'/>I'm not just a <span className='highlight'>problem-solving</span> designer. I can <span className='highlight'>create</span> something that <span className='highlight'>inspires people</span> with new <span className='highlight'>experiences</span>.<img src='assets/Quotation2.png' className='quote-r' data-rjs='2'/>
         </div>
         <div className='resumeButton'>
           <a href="https://drive.google.com/file/d/1bfHYzu_jfNnr5gxd27e3AAs5GlWe-OMV/view">
