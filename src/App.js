@@ -11,12 +11,14 @@ import ProjectAPage from './ProjectAPage';
 import ProjectBPage from './ProjectBPage';
 import ProjectCPage from './ProjectCPage';
 import ProjectDPage from './ProjectDPage';
+import TopButton from './TopButton';
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App container-fluid">
+          <TopButton />
           <Header className="Header" />
           <Route path='/' exact component={WorkPage} />
           <Route path='/about' component={AboutPage} />
