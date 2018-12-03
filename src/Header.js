@@ -14,6 +14,7 @@ class Header extends React.Component {
     console.log(event);
     const openStatus = event.target.checked;
     document.getElementById("root").classList.toggle('noscroll', openStatus);
+    document.getElementById("body").classList.toggle('noscroll', openStatus);
   }
 
   render() {
