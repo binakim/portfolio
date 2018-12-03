@@ -10,9 +10,12 @@ class Highlight extends Component {
   }
 
   visibilityChange(isVisible) {
+    let delay = 0;
+    if (isVisible) delay = this.props.delay || 0;
+
     setTimeout(() => {
       this.setState({isVisible: isVisible});
-    }, this.props.delay || 0);
+    }, delay);
   }
 
   render () {

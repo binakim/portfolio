@@ -10,17 +10,23 @@ class SlideUp extends Component {
   }
 
   visibilityChange(isVisible) {
-    console.log('visibility change detected');
+    console.log('visibility change detected', isVisible);
+    let delay = 0;
+    if (isVisible) delay = this.props.delay || 0;
+
     setTimeout(() => {
       this.setState({isVisible: isVisible});
-    }, this.props.delay || 0);
+    }, delay);
   }
 
   render () {
     const { isVisible } = this.state;
 
     return (
-      <VisibilitySensor onChange={this.visibilityChange}>
+      <VisibilitySensor 
+          partialVisibility={true}
+          onChange={this.visibilityChange}>
+
         <CSSTransition
           in={isVisible}
           timeout={1000}

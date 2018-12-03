@@ -1,9 +1,12 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
+import SlideUp from './animation/slideup';
+
+
 export default (props) => {
   const alignment = props.right ? 'right' : '';
-  const last = props.right ? 'last' : '';
+  const last = props.last ? 'last' : '';
 
   return <div className={['workPanel', alignment, last].join(' ')}>
     <div className='order-2 order-md-1 col-10 col-md-5'>
@@ -16,7 +19,9 @@ export default (props) => {
     </div>
     <div className='order-1 order-md-2 col-12 col-md-7'>
       <div className={ ['workPanelImage',props.backgroundStyle].join(' ') }>
-        <img src={ props.imagePath } data-rjs="2"/>
+        <SlideUp>
+          <img src={ props.imagePath } data-rjs="2"/>
+        </SlideUp>
       </div>
     </div>
   </div>
