@@ -4,7 +4,20 @@ import { NavLink } from "react-router-dom";
 import './Header.scss';
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
+    this.state = {isOverlayVisible: false};
+  }
+
+  handleChange(event) {
+    console.log(event);
+    const openStatus = event.target.checked;
+    document.getElementById("root").classList.toggle('noscroll', openStatus);
+  }
+
   render() {
+
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light header">
@@ -25,7 +38,7 @@ class Header extends React.Component {
           </div>
         </nav>
         <label className='hamMenu d-lg-none'>
-          <input type="checkbox" />
+          <input type="checkbox" onChange={this.handleChange} />
           <span class="menu">
             <span class="hamburger"></span>
           </span>

@@ -380,3 +380,7 @@ a:hover::after {
   @media (min-width: 768px) {
   }
 }
+
+.noscroll {
+  overflow: hidden !important;
+}
