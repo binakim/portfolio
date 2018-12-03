@@ -215,6 +215,13 @@ $light-gray-color: rgb(235,235,235);
 // @media (min-width: 1200px) {
 // }
 
+#root {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 10px;
+}
+
 
 a {
   position: relative;

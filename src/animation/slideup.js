@@ -4,38 +4,38 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 class SlideUp extends Component {
   constructor(props) {
-    super(props);
-    this.visibilityChange = this.visibilityChange.bind(this);
-    this.state = { isVisible: false };
+    super(props)
+    this.onScroll = this.onScroll.bind(this);
+    this.myRef = React.createRef()
+    this.state = {scrollTop: 0}
   }
 
-  visibilityChange(isVisible) {
-    console.log('visibility change detected', isVisible);
-    let delay = 0;
-    if (isVisible) delay = this.props.delay || 0;
-
-    setTimeout(() => {
-      this.setState({isVisible: isVisible});
-    }, delay);
+  onScroll = () => {
+     const scrollTop = this.myRef.current.scrollTop
+     console.log(`myRef.scrollTop: ${scrollTop}`)
+     this.setState({
+        scrollTop: scrollTop
+     })
   }
 
-  render () {
-    const { isVisible } = this.state;
+  render() {
+    const {
+      scrollTop
+    } = this.state
+    const { children } = this.props;
 
-    return (
-      <VisibilitySensor 
-          partialVisibility={true}
-          onChange={this.visibilityChange}>
+    console.log('rendering with scroll');
 
-        <CSSTransition
-          in={isVisible}
-          timeout={1000}
-          classNames="SlideUp"
-        >
-          { this.props.children }
-        </CSSTransition>
-      </VisibilitySensor>
-    )
+    const childrenWithProps = React.Children.map(children, child =>
+      React.cloneElement(child, 
+        {
+          ref: this.myRef,
+          onScroll: this.onScroll
+        
+        })
+    );
+
+    return childrenWithProps;
   }
 }
 

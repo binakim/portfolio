@@ -128,7 +128,7 @@
 
   img {
     max-width: 617px;
-    transform: translate(0,-19%);
+    transform: translate3d(0, -19%, 1px) scale(0.9);
   }
 }
 
@@ -137,7 +137,7 @@
 
   img {
     max-width: 536px;
-    transform: translate(0, -27%);
+    transform: translate3d(0, -27%, 0.5px) scale(0.95);
     width: 88.7%;
   }
 }
@@ -147,7 +147,7 @@
 
   img {
     width: 35.37%;
-    transform: translate(0, -27%);
+    transform: translate3d(0, -27%, 1px) scale(0.9);
   }
 }
 
@@ -156,6 +156,7 @@
 
   img {
     top: 80px;
+    transform: translate3d(0, 0, 0.5px) scale(0.95);
   }
 }
 
