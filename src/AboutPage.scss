@@ -47,6 +47,8 @@
 
 .profilePhoto {
   @extend %section3-margin;
+  display: flex;
+  align-items: center;
 
   img {
     width: 100%;

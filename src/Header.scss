@@ -37,8 +37,11 @@
 }
 
 .header .nav-item .active {
-  color: $primary-color;
+  color: $black-color;
   font-weight: bold;
+  &::after {
+    @extend .highlight-drop;
+  }
 }
 
 .header .navbar-collapse.collapse.show {
