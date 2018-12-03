@@ -220,6 +220,7 @@ $light-gray-color: rgb(235,235,235);
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 10px;
+  -webkit-overflow-scrolling: touch;
 }
 
 
