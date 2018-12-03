@@ -1,18 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { TransitionGroup } from 'react-transition-group';
 
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';
 
 import './WorkPage.scss';
+import Highlight from './animation/highlight';
 
 export default () => {
   return <div>
     <CenteredPage className='introduction'> 
-      Hello, I'm <span className='highlight'>Bina Kim</span>.<br/>
-      A <span className='highlight'>product designer</span><br/>
-      who <span className='highlight'>designs</span> delightful<br/>
-      User Experience.<br/>
+        Hello, I'm <Highlight><span className='highlight animate'>Bina Kim</span></Highlight>.<br/>
+        A <Highlight delay='1000'><span className='highlight animate'>product designer</span></Highlight><br/>
+        who <Highlight delay='2000'><span className='highlight animate'>designs</span></Highlight> delightful<br/>
+        User Experience.<br/>
     </CenteredPage>
     <WorkPanel target='/project-a' backgroundStyle='gd1' imagePath='assets/p1.png'>
       <div className='workPanelCategory'>UI / UX Design</div>

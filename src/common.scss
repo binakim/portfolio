@@ -240,19 +240,31 @@ a:hover::after {
 
 .highlight-drop {
   content: "";
-  background-color: $primary-color;
+  background-image: linear-gradient(to right, transparent 50%, #50e3c2 50%);
+  background-position: -100% 100%;
+  background-size: 200% 100%;
+  background-repeat: repeat-x;
   height: 36%;
   width: 100%;
   position: absolute;
   display: block;
   border-radius: 50px;
   top: 49%;
+  transition: background-position 0.4s ease-out;
   left: 0px;
   z-index: -1;
 }
 
 .highlight::after {
   @extend .highlight-drop;
+}
+
+.highlight.animate::after {
+  @extend .highlight-drop;
+  background-position: 0% 100%;
+}
+.highlight.animate.highlight-enter-done::after {
+  background-position: -100% 100%;
 }
 
 .fitImage {
