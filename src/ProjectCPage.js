@@ -253,7 +253,7 @@ the system which is secure and seamless.
         href: '/project-d',
         className: 'gd4',
         imgUrl: 'assets/p4.png',
-        category: 'UI / UX Design',
+        category: 'UX Design',
         title: 'Channel Hyundai Card'
       }}
     />

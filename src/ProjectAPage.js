@@ -356,7 +356,7 @@ Also, I usually make a trip journal after the trip, because I want to remember t
         href: '/project-d',
         className: 'gd4',
         imgUrl: 'assets/p4.png',
-        category: 'UI / UX Design',
+        category: 'UX Design',
         title: 'Channel Hyundai Card'
       }}
       next={{

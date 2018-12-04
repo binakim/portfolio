@@ -16,7 +16,7 @@ export default () => {
       </div>
     </div>
     <div className='col-12 col-lg-5 projectTitle'>
-      <div className='topPanelCategory'>Product Design</div>
+      <div className='topPanelCategory'>UX Design</div>
       <div className='topPanelTitle'>Channel Hyundai Card</div>
       <div className='topPanelDescription'>The responsive video streaming website for branding and marketing of credit card companies.</div>
     </div>

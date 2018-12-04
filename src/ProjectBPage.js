@@ -395,7 +395,7 @@ Sometimes they exchange their remaining ingredients.</div>
       next={{
         href: '/project-c',
         className: 'gd3',
-        imgUrl: 'assets/p4.png',
+        imgUrl: 'assets/p3.png',
         category: 'UI / UX Design',
         title: 'Show me ID'
       }}
