@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
+import { withRouter } from "react-router-dom";
 
 class TopButton extends Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
+  }
+
+  componentDidUpdate(prevProps) {
+    console.log(prevProps);
+    if (this.props.location !== prevProps.location) {
+      this.handleClick();
+    }
   }
 
   handleClick() {
@@ -23,4 +31,4 @@ class TopButton extends Component {
   }
 }
 
-export default TopButton;
+export default withRouter(TopButton);
