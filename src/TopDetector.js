@@ -20,7 +20,7 @@ class TopDetector extends Component {
   render () {
     return (
       <div>
-        <VisibilitySensor onChange={this.visibilityChange}>
+        <VisibilitySensor partialVisibility={true} onChange={this.visibilityChange}>
           <div className='firstPage'/>
         </VisibilitySensor>
       </div>
