@@ -689,7 +689,7 @@
   text-align: left;
 
   .persona_quote {
-    font-size: 18px;
+    @extend h4;
     margin-bottom: 30px;
   }
   .persona_env {
