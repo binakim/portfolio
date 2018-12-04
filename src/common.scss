@@ -10,6 +10,7 @@ $yellow-color: rgb(255,201,5);
 $green-color: rgb(76,120,114);
 $blue-color: rgb(42,56,160);
 $light-gray-color: rgb(235,235,235);
+$dark-gray-color: #DEDEDE;
 
 
 %page-margin {
@@ -111,6 +112,11 @@ $light-gray-color: rgb(235,235,235);
 
 .grayBackground {
   background: $gray-color;
+}
+
+.darkGrayBackground {
+  background: $dark-gray-color;
+  text-align: center;
 }
 
 .lightGrayBackground {
@@ -268,6 +274,7 @@ a:hover::after {
 
 .fitImage {
   width: 100%;
+  max-width: 1120px;
   height: auto;
 }
 
