@@ -6,7 +6,9 @@ export default (props) => {
     <div className='introTop' />
     { props.children }
     <div className='introBottom'>
-      <i className="material-icons">expand_more</i>
+      <div class='icon-scroll'>
+        <div class="icon-scroll-screen"></div>
+      </div>
     </div>
   </div>;
 }
