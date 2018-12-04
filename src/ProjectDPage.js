@@ -60,7 +60,7 @@ class ProjectD extends Component {
           -How to effectively expose a few contents at the beginning of the site?<br/>
           -Navigation configuration to allow continuous viewing of content. 
           </div>
-          <img className='fitImage' src='assets/p4/p4_1.png' data-rjs="2"/>
+          <img className='fitImage' src='assets/p4/p4_1.jpg' data-rjs="2"/>
       </div>
 
 
@@ -149,7 +149,7 @@ class ProjectD extends Component {
          </div>
          <div className='subtitle entry content'>Mobile</div>
          <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_12.png' data-rjs="2"/>
+         <img className='fitImage' src='assets/p4/p4_12.jpg' data-rjs="2"/>
          </div>
     </div>
 
