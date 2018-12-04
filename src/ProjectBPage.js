@@ -39,7 +39,7 @@ class ProjectB extends Component {
 
         <div className='sectionPanel col-12'>
             <div className='section image'>PROJECT GOAL</div>
-            <img className='fitImage' src='assets/p2/p2_1.jpg' data-rjs="2"/>
+            <img className='fitImage' src='assets/p2/p2_1.png' data-rjs="2"/>
         </div>
 
         <div className='sectionPanel col-12'>

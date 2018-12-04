@@ -224,7 +224,7 @@ class ProjectC extends Component {
         <div className='sectionPanel col-12'>
           <div className='section image'>USER TEST</div>
           <div className='content'>
-            <img className='fitImage' src='assets/p3/p3_10.png' data-rjs="2"/>
+            <img className='fitImage' src='assets/p3/p3_10.jpg' data-rjs="2"/>
           </div>
         </div>
         <div className='sectionPanel fullImage conclusion'>

@@ -292,7 +292,7 @@ class ProjectA extends Component {
         <div className='sectionPanel col-12'>
           <div className='section'>STORY BOARD</div>
           <div className='content'>
-            <img className='fitImage' src='assets/p-a/p1_12.png' data-rjs="2"/>
+            <img className='fitImage' src='assets/p-a/p1_12.jpg' data-rjs="2"/>
           </div>
         </div>
         <div className='sectionPanel col-12'>
@@ -327,8 +327,8 @@ class ProjectA extends Component {
           <div className='section'>WIREFRAMES</div>
           <div className='content'>
             <img className='fitImage' src='assets/p-a/p1_15.png' data-rjs="2"/>
-            <img className='fitImage' src='assets/p-a/p1_15_2.png' data-rjs="2"/>
-            <img className='fitImage' src='assets/p-a/p1_15_3.png' data-rjs="2"/>
+            <img className='fitImage' src='assets/p-a/p1_15_2.jpg' data-rjs="2"/>
+            <img className='fitImage' src='assets/p-a/p1_15_3.jpg' data-rjs="2"/>
           </div>
         </div>
         <div className='sectionPanel col-12'>
