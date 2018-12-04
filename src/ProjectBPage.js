@@ -8,7 +8,7 @@ import './WorkPage.scss';
 import './Project.scss';
 
 class ProjectB extends Component {
-  componentdidmount() {
+  componentDidMount() {
     retina();
   }
 
