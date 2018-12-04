@@ -12,8 +12,8 @@ export default () => {
   return <div>
     <CenteredPage className='introduction'> 
         Hello, I'm <Highlight><span className='highlight animate'>Bina Kim</span></Highlight>.<br/>
-        A <Highlight delay='1000'><span className='highlight animate'>product designer</span></Highlight><br/>
-        who <Highlight delay='2000'><span className='highlight animate'>designs</span></Highlight> delightful<br/>
+        A <Highlight delay='300'><span className='highlight animate'>product designer</span></Highlight><br/>
+        who designs <Highlight delay='600'><span className='highlight animate'>delightful</span></Highlight><br/>
         User Experience.<br/>
     </CenteredPage>
     <WorkPanel target='/project-a' backgroundStyle='gd1' imagePath='assets/p1.png'>
