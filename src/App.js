@@ -12,16 +12,29 @@ import ProjectBPage from './ProjectBPage';
 import ProjectCPage from './ProjectCPage';
 import ProjectDPage from './ProjectDPage';
 import TopButton from './TopButton';
+import TopDetector from './TopDetector';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.dispatch = this.dispatch.bind(this);
+    this.state = { showTopButton: false };
+    this.parallaxRef = React.createRef();
+  }
+
+  dispatch(state) {
+    this.setState(state);
+  }
+
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div>
-          <TopButton />
-          <div className='parallax-container'>
+          <TopButton target={this.parallaxRef} showTopButton={this.state.showTopButton} />
+          <div ref={this.parallaxRef} className='parallax-container'>
             <div className="App container-fluid">
               <Header className="Header" />
+              <TopDetector dispatch={this.dispatch} />
               <Route path='/' exact component={WorkPage} />
               <Route path='/about' component={AboutPage} />
               <Route path='/project-a' component={ProjectAPage} />

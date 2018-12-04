@@ -1,51 +1,34 @@
 import React, { Component } from 'react';
-
+import VisibilitySensor from 'react-visibility-sensor';
+import { withRouter } from "react-router-dom";
 
 class TopButton extends Component {
   constructor(props) {
     super(props);
-    this.state = {showTop: false};
-    this.showScroll = this.showScroll.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.showScroll);
+  componentDidUpdate(prevProps) {
+    console.log(prevProps);
+    if (this.props.location !== prevProps.location) {
+      this.handleClick();
+    }
   }
 
-  componentWillUnmount() {
-      window.removeEventListener('scroll', this.showScroll);
-  }
-
-  showScroll(evt) {
-    const top = window.scrollY;
-	  if (top < 500 ) {
-		  //Adds active class to make button visible
-		  this.setState({showTop: false});
-		}
-		else {
-		  this.setState({showTop: true});
-		}
-  }
-
-  scroll() {
-    window.scrollTo({
-     top: 0,
-     behavior: "smooth"
-    })
+  handleClick() {
+    this.props.target.current.scrollTop = 0;
   }
 
   render () {
-    if (this.state.showTop) {
-      return (
-        <div id='topButton' className='topButton'>
-          <i className="material-icons" onClick={this.scroll}>expand_less</i>
-        </div>
-      );
+    const classNames = ['topButton']
+    if (!this.props.showTopButton) {
+      classNames.push('hide');
     }
-    else {
-      return <div />
-    }
+
+    return <div id='topButton' className={classNames.join(' ')}>
+      <i className="material-icons" onClick={this.handleClick}>expand_less</i>
+    </div>
   }
 }
 
-export default TopButton;
+export default withRouter(TopButton);
