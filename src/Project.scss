@@ -706,7 +706,12 @@
   }
 }
 .persona_bottom_fix {
-  margin-bottom: -100px !important;
+  @media (min-width: 1px) {
+    margin-bottom: -50px !important;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: -100px !important;
+  }
 }
 
 .sim_content {
