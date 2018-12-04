@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { TransitionGroup } from 'react-transition-group';
 
 import CenteredPage from './CenteredPage';
 import WorkPanel from './WorkPanel';

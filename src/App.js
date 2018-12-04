@@ -17,16 +17,20 @@ class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-        <div className="App container-fluid">
+        <div>
           <TopButton />
-          <Header className="Header" />
-          <Route path='/' exact component={WorkPage} />
-          <Route path='/about' component={AboutPage} />
-          <Route path='/project-a' component={ProjectAPage} />
-          <Route path='/project-b' component={ProjectBPage} />
-          <Route path='/project-c' component={ProjectCPage} />
-          <Route path='/project-d' component={ProjectDPage} />
-          <Footer />
+          <div className='parallax-container'>
+            <div className="App container-fluid">
+              <Header className="Header" />
+              <Route path='/' exact component={WorkPage} />
+              <Route path='/about' component={AboutPage} />
+              <Route path='/project-a' component={ProjectAPage} />
+              <Route path='/project-b' component={ProjectBPage} />
+              <Route path='/project-c' component={ProjectCPage} />
+              <Route path='/project-d' component={ProjectDPage} />
+              <Footer />
+            </div>
+          </div>
         </div>
       </Router>
     );

@@ -215,14 +215,6 @@ $light-gray-color: rgb(235,235,235);
 // @media (min-width: 1200px) {
 // }
 
-#root {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 10px;
-}
-
-
 a {
   position: relative;
   color: $text-color;
@@ -351,6 +343,14 @@ a:hover::after {
   @extend %title-margin;
 }
 
+.firstPage {
+  position: absolute;
+  height: 80vh;
+  width: 1px;
+  top:0;
+  left:0;
+}
+
 .topButton {
   position: fixed;
   text-align: right;
@@ -385,4 +385,11 @@ a:hover::after {
   overflow: hidden !important;
   transition: perspective 0.2s linear;
   perspective: 1px !important;
+}
+
+.parallax-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 10px;
 }
