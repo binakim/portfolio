@@ -39,7 +39,7 @@ class ProjectB extends Component {
 
         <div className='sectionPanel col-12'>
             <div className='section image'>PROJECT GOAL</div>
-            <img className='fitImage' src='assets/p2/p2_1.jpg' data-rjs="2"/>
+            <img className='fitImage' src='assets/p2/p2_1.png' data-rjs="2"/>
         </div>
 
         <div className='sectionPanel col-12'>
@@ -222,7 +222,7 @@ class ProjectB extends Component {
         <div className='sectionPanel col-12'>
           <div className='section image'>IDEATION</div>
           <div className='subtitle content'>Brainstoming with crazy 8's </div>
-          <img className='fitImage sectionImage' src='assets/p2/p2_12.png' data-rjs="2"/>
+          <img className='fitImage sectionImage' src='assets/p2/p2_12.jpg' data-rjs="2"/>
 
           <div className='col-12'>
           <div className='subtitle content'>Results</div>  
@@ -287,7 +287,7 @@ class ProjectB extends Component {
     {/*idea sketch*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>Sketch</div>
-            <img className='fitImage' src='assets/p2/p2_13.png' data-rjs="2"/>
+            <img className='fitImage' src='assets/p2/p2_13.jpg' data-rjs="2"/>
         </div>
 
 
